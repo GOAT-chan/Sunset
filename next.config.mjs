@@ -12,6 +12,7 @@ const shouldUnoptimizeImages = process.env.NEXT_PUBLIC_UNOPTIMIZED_IMAGES === "t
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'standalone',
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/i,
@@ -79,6 +80,7 @@ const nextConfig = {
         pathname: "**",
       },
     ],
+    unoptimized: true,
   },
   reactStrictMode: false,
 };
