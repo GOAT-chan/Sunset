@@ -47,21 +47,6 @@ const cards = [
     descriptionKey: "cards.medals.description",
     imageUrl: "/images/frontpage/medals.png",
   },
-  {
-    titleKey: "cards.updates.title",
-    descriptionKey: "cards.updates.description",
-    imageUrl: "/images/frontpage/updates.png",
-  },
-  {
-    titleKey: "cards.ppCalc.title",
-    descriptionKey: "cards.ppCalc.description",
-    imageUrl: "/images/frontpage/ppcalc.png",
-  },
-  {
-    titleKey: "cards.sunriseCore.title",
-    descriptionKey: "cards.sunriseCore.description",
-    imageUrl: "/images/frontpage/sunrisecore.png",
-  },
 ];
 
 export default function Home() {

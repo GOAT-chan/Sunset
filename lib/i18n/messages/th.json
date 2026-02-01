@@ -2,142 +2,138 @@
   "components": {
     "serverMaintenanceDialog": {
       "title": {
-        "text": "Hey! Stop right there!",
+        "text": "ขออภัยด้วยค่ะ",
         "context": "Title of the server maintenance dialog"
       },
       "discordMessage": {
-        "text": "For more information view our Discord server.",
+        "text": "เยี่ยมเซิร์ฟเวอร์ Discord ของเราสำหรับข้อมูลเพิ่มเติม!",
         "context": "Message directing users to Discord for more information about server maintenance"
       },
       "button": {
-        "text": "Okay, I understand",
+        "text": "ตกลง",
         "context": "Button text to acknowledge the maintenance message"
       },
       "message": {
-        "text": "The server is currently in <b>maintenance mode</b>, so some features of the website <b>may not function correctly</b>.",
+        "text": "ตอนนี้เซิร์ฟเวอร์กำลังอยู่ใน <b>การปรับปรุง</b>, เพราะฉะนั้นฟังก์ชั่นบางอย่าง <b>อาจไม่ทำงานตามที่ควร</b>.",
         "context": "This message is shown to users when the server is under maintenance."
       }
     },
     "contentNotExist": {
       "defaultText": {
-        "text": "Content not found",
+        "text": "ไม่พบข้อมูล",
         "context": "Default message when content does not exist"
       }
     },
     "workInProgress": {
       "title": {
-        "text": "Work in progress",
+        "text": "อยู่ระหว่างการทำ",
         "context": "Title for work in progress message"
       },
       "description": {
-        "text": "Check back later.",
+        "text": "กลับมาเช็คดูทีหลังนะ",
         "context": "Description message for work in progress content"
       }
     },
     "beatmapSetCard": {
       "submittedBy": {
-        "text": "submitted by",
+        "text": "โดย",
         "context": "Label showing who submitted the beatmap"
       },
       "submittedOn": {
-        "text": "submitted on",
+        "text": "ในวันที่",
         "context": "Label showing when the beatmap was submitted"
       },
       "view": {
-        "text": "View",
+        "text": "ดู",
         "context": "Button text to view the beatmap"
       }
     },
     "friendshipButton": {
       "unfriend": {
-        "text": "Unfriend",
+        "text": "ลบเพื่อน",
         "context": "Button text to unfriend a user (mutual friendship)"
       },
       "unfollow": {
-        "text": "Unfollow",
+        "text": "เลิกติดตาม",
         "context": "Button text to unfollow a user"
       },
       "follow": {
-        "text": "Follow",
+        "text": "ติดตาม",
         "context": "Button text to follow a user"
       }
     },
     "gameModeSelector": {
       "selectedMode": {
-        "text": "Selected mode:",
+        "text": "โหมดปัจจุบัน:",
         "context": "Label for selected game mode in mobile combobox view"
       }
     },
     "header": {
       "links": {
         "leaderboard": {
-          "text": "leaderboard",
+          "text": "การจัดอันดับ",
           "context": "Header navigation link text for leaderboard"
         },
         "topPlays": {
-          "text": "top plays",
+          "text": "คะแนนสูงสุด",
           "context": "Header navigation link text for top plays"
         },
         "beatmaps": {
-          "text": "beatmaps",
+          "text": "บีทแมพ",
           "context": "Header navigation link text for beatmaps"
         },
         "help": {
-          "text": "help",
+          "text": "ช่วยเหลือ",
           "context": "Header navigation link text for help dropdown"
         },
         "wiki": {
-          "text": "wiki",
+          "text": "สิ่งควรรู้",
           "context": "Help dropdown menu item for wiki"
         },
         "rules": {
-          "text": "rules",
+          "text": "กฎ",
           "context": "Help dropdown menu item for rules"
         },
         "apiDocs": {
-          "text": "api docs",
+          "text": "ข้อมูล API",
           "context": "Help dropdown menu item for API documentation"
         },
         "discordServer": {
-          "text": "discord server",
+          "text": "เซิร์ฟเวอร์ Discord",
           "context": "Help dropdown menu item for Discord server"
         },
         "supportUs": {
-          "text": "support us",
+          "text": "สนับสนุนเรา",
           "context": "Help dropdown menu item for support page"
-        },
-        "patcher": {
-          "text": "osu! patcher",
-          "context": "Help dropdown menu item for Sunrise Patcher page"
         }
       }
     },
     "headerLoginDialog": {
       "signIn": {
-        "text": "sign in",
+        "text": "เข้าสู่ระบบ",
         "context": "Button text to open sign in dialog"
       },
       "title": {
-        "text": "Sign In To Proceed",
+        "text": "เข้าสู่ระบบ",
         "context": "Title of the login dialog"
       },
       "description": {
-        "text": "Welcome back.",
+        "text": "ยินดีต้อนรับ",
         "context": "Description text in the login dialog"
       },
       "username": {
         "label": {
-          "text": "Username",
+          "text": "ชื่อผู้เล่น",
           "context": "Form label for username input"
         },
         "placeholder": {
-          "text": "e.g. username",
+          "text": "เช่น: username",
           "context": "Placeholder text for username input"
         }
       },
       "password": {
         "label": {
-          "text": "Password",
+          "text": "รหัสผ่าน",
           "context": "Form label for password input"
         },
         "placeholder": {
@@ -146,213 +142,209 @@
         }
       },
       "login": {
-        "text": "Login",
+        "text": "เข้าสู่ระบบ",
         "context": "Button text to submit login form"
       },
       "signUp": {
-        "text": "Don't have an account? Sign up",
+        "text": "ยังไม่มีบัญชี? สมัครเลย!",
         "context": "Link text to navigate to registration page"
       },
       "toast": {
         "success": {
-          "text": "You succesfully logged in!",
+          "text": "เข้าสู่ระบบเรียบร้อยแล้ว",
           "context": "Success toast message after successful login"
         }
       },
       "validation": {
         "usernameMinLength": {
-          "text": "Username must be at least 2 characters.",
+          "text": "ชื่อผู้เล่นต้องมีความยาวอย่างน้อย 2 ตัวอักษร",
           "context": "Validation error message for username minimum length"
         },
         "usernameMaxLength": {
-          "text": "Username must be 32 characters or fewer.",
+          "text": "ชื่อผู้เล่นต้องมีความยาวไม่เกิน 32 ตัวอักษร",
           "context": "Validation error message for username maximum length"
         },
         "passwordMinLength": {
-          "text": "Password must be at least 8 characters.",
+          "text": "รหัสผ่านต้องมีความยาวอย่างน้อย 8 ตัวอักษร",
           "context": "Validation error message for password minimum length"
         },
         "passwordMaxLength": {
-          "text": "Password must be 32 characters or fewer.",
+          "text": "รหัสผ่านต้องมีความยาวไม่เกิน 32 ตัวอักษร",
           "context": "Validation error message for password maximum length"
         }
       }
     },
     "headerLogoutAlert": {
       "title": {
-        "text": "Are you sure?",
+        "text": "แน่ใจหรอ?",
         "context": "Title of the logout confirmation dialog"
       },
       "description": {
-        "text": "You will need to log in again to access your account.",
+        "text": "คุณจะต้องเข้าสู่ระบบอีกครั้งหนึ่งเพื่อเข้าถึงบัญชีของคุณ",
         "context": "Description text explaining the consequences of logging out"
       },
       "cancel": {
-        "text": "Cancel",
+        "text": "ยกเลิก",
         "context": "Button text to cancel logout"
       },
       "continue": {
-        "text": "Continue",
+        "text": "ไปต่อ",
         "context": "Button text to confirm logout"
       },
       "toast": {
         "success": {
-          "text": "You have been successfully logged out.",
+          "text": "ออกจากระบบเรียบร้อยแล้ว",
           "context": "Success toast message after successful logout"
         }
       }
     },
     "headerSearchCommand": {
       "placeholder": {
-        "text": "Type to search...",
+        "text": "พิมพ์เพื่อค้นหา...",
         "context": "Placeholder text for the search command input"
       },
       "headings": {
         "users": {
-          "text": "Users",
+          "text": "ผู้เล่น",
           "context": "Heading for users section in search results"
         },
         "beatmapsets": {
-          "text": "Beatmapsets",
+          "text": "บีทแมพ",
           "context": "Heading for beatmapsets section in search results"
         },
         "pages": {
-          "text": "Pages",
+          "text": "อื่นๆ",
           "context": "Heading for pages section in search results"
         }
       },
       "pages": {
         "leaderboard": {
-          "text": "Leaderboard",
+          "text": "การจัดอันดับ",
           "context": "Search result item for leaderboard page"
         },
         "topPlays": {
-          "text": "Top plays",
+          "text": "คะแนนสูงสุด",
           "context": "Search result item for top plays page"
         },
         "beatmapsSearch": {
-          "text": "Beatmaps search",
+          "text": "ค้นหาบีทแมพ",
           "context": "Search result item for beatmaps search page"
         },
         "wiki": {
-          "text": "Wiki",
+          "text": "สิ่งควรรู้",
           "context": "Search result item for wiki page"
         },
         "rules": {
-          "text": "Rules",
+          "text": "กฎ",
           "context": "Search result item for rules page"
         },
         "yourProfile": {
-          "text": "Your profile",
+          "text": "โปรไฟล์ของฉัน",
           "context": "Search result item for user's own profile"
         },
         "friends": {
-          "text": "Friends",
+          "text": "เพื่อน",
           "context": "Search result item for friends page"
         },
         "settings": {
-          "text": "Settings",
+          "text": "การตั้งค่า",
           "context": "Search result item for settings page"
         }
       }
     },
     "headerUserDropdown": {
       "myProfile": {
-        "text": "My Profile",
+        "text": "โปรไฟล์ของฉัน",
         "context": "Dropdown menu item for user's profile"
       },
       "friends": {
-        "text": "Friends",
+        "text": "เพื่อน",
         "context": "Dropdown menu item for friends page"
       },
       "settings": {
-        "text": "Settings",
+        "text": "การตั้งค่า",
         "context": "Dropdown menu item for settings page"
       },
       "returnToMainSite": {
-        "text": "Return to main site",
+        "text": "กลับสู่เว็บไซต์หลัก",
         "context": "Dropdown menu item to return from admin panel to main site"
       },
       "adminPanel": {
-        "text": "Admin panel",
+        "text": "แผงแอดมิน",
         "context": "Dropdown menu item to access admin panel"
       },
       "logOut": {
-        "text": "Log out",
+        "text": "ออกจากระบบ",
         "context": "Dropdown menu item to log out"
       }
     },
     "headerMobileDrawer": {
       "navigation": {
         "home": {
-          "text": "Home",
+          "text": "หน้าหลัก",
           "context": "Mobile drawer navigation item for home page"
         },
         "leaderboard": {
-          "text": "Leaderboard",
+          "text": "การจัดอันดับ",
           "context": "Mobile drawer navigation item for leaderboard"
         },
         "topPlays": {
-          "text": "Top plays",
+          "text": "คะแนนสูงสุด",
           "context": "Mobile drawer navigation item for top plays"
         },
         "beatmapsSearch": {
-          "text": "Beatmaps search",
+          "text": "ค้นหาบีทแมพ",
           "context": "Mobile drawer navigation item for beatmaps search"
         },
         "wiki": {
-          "text": "Wiki",
+          "text": "สิ่งควรรู้",
           "context": "Mobile drawer navigation item for wiki"
         },
         "rules": {
-          "text": "Rules",
+          "text": "กฎ",
           "context": "Mobile drawer navigation item for rules"
         },
         "apiDocs": {
-          "text": "API Docs",
+          "text": "ข้อมูล API",
           "context": "Mobile drawer navigation item for API documentation"
         },
         "discordServer": {
-          "text": "Discord Server",
+          "text": "เซิร์ฟเวอร์ Discord",
           "context": "Mobile drawer navigation item for Discord server"
         },
         "supportUs": {
-          "text": "Support Us",
+          "text": "สนับสนุนเรา",
           "context": "Mobile drawer navigation item for support page"
-        },
-        "patcher": {
-          "text": "osu! Patcher",
-          "context": "Mobile drawer navigation item for Sunrise Patcher page"
         }
       },
       "yourProfile": {
-        "text": "Your profile",
+        "text": "โปรไฟล์ของฉัน",
         "context": "Mobile drawer menu item for user's profile"
       },
       "friends": {
-        "text": "Friends",
+        "text": "เพื่อน",
         "context": "Mobile drawer menu item for friends"
       },
       "settings": {
-        "text": "Settings",
+        "text": "การตั้งค่า",
         "context": "Mobile drawer menu item for settings"
       },
       "adminPanel": {
-        "text": "Admin panel",
+        "text": "แผงแอดมิน",
         "context": "Mobile drawer menu item for admin panel"
       },
       "logOut": {
-        "text": "Log out",
+        "text": "ออกจากระบบ",
         "context": "Mobile drawer menu item to log out"
       }
     },
     "footer": {
       "solarSystemVersion": {
-        "text": "Server version: 🚀 {solarSystemVersion}",
+        "text": "เซิร์ฟเวอร์ เวอร์ชั่น: 🚀 {solarSystemVersion}",
         "context": "Text indicating the version of Solar System the server is running under, includes version as parameter"
       },
       "voteMessage": {
-        "text": "Please vote for us on osu-server-list!",
+        "text": "ฝากโหวตให้เราบน osu-server-list ด้วยนะคะ!",
         "context": "Message encouraging users to vote on osu-server-list"
       },
       "sourceCode": {
@@ -360,121 +352,75 @@
         "context": "Link text for source code repository"
       },
       "serverStatus": {
-        "text": "Server Status",
+        "text": "สถานะของเซิร์ฟเวอร์",
         "context": "Link text for server status page"
       },
       "disclaimer": {
-        "text": "We are not affiliated with \"ppy\" and \"osu!\" in any way. All rights reserved to their respective owners.",
+        "text": "เราไม่มีความเกี่ยวข้องกับ \"ppy\" และ \"osu!\" แต่อย่างใด / ลิขสิทธิ์ทั้งหมดเป็นของผู้เป็นเจ้าของโดยชอบธรรม\nภาษาไทยแปลโดย lyronseir (lyrongoon)",
         "context": "Disclaimer text about not being affiliated with ppy/osu!"
       }
     },
     "comboBox": {
       "selectValue": {
-        "text": "Select value...",
+        "text": "เลือกค่า...",
         "context": "Placeholder text when no value is selected in combobox"
       },
       "searchValue": {
-        "text": "Search value...",
+        "text": "ค้นหาค่า...",
         "context": "Placeholder text for search input in combobox"
       },
       "noValuesFound": {
-        "text": "No values found.",
+        "text": "ไม่พบค่าค้นหา",
         "context": "Message shown when no search results are found in combobox"
       }
     },
     "beatmapsetRowElement": {
       "mappedBy": {
-        "text": "mapped by {creator}",
+        "text": "แมพโดย {creator}",
         "context": "Text showing who mapped the beatmap, includes creator name as parameter"
       }
     },
     "themeModeToggle": {
       "toggleTheme": {
-        "text": "Toggle theme",
+        "text": "สลับธีม",
         "context": "Screen reader text for theme toggle button"
       },
       "light": {
-        "text": "Light",
+        "text": "สว่าง",
         "context": "Theme option for light mode"
       },
       "dark": {
-        "text": "Dark",
+        "text": "มืด",
         "context": "Theme option for dark mode"
       },
       "system": {
-        "text": "System",
+        "text": "ตามระบบ",
         "context": "Theme option for system default mode"
       }
     },
     "imageSelect": {
       "imageTooBig": {
-        "text": "Selected image is too big!",
+        "text": "รูปที่เลือกมีขนาดใหญ่เกิน!",
         "context": "Error message when selected image exceeds maximum file size"
-      }
-    },
-    "imageCropDialog": {
-      "titleAvatar": {
-        "text": "Adjust avatar",
-        "context": "Title for the avatar crop dialog"
-      },
-      "descriptionAvatar": {
-        "text": "Drag and zoom to choose how the avatar will appear.",
-        "context": "Description text for the avatar crop dialog"
-      },
-      "titleBanner": {
-        "text": "Adjust banner",
-        "context": "Title for the banner crop dialog"
-      },
-      "descriptionBanner": {
-        "text": "Drag and zoom to choose how the banner will appear.",
-        "context": "Description text for the banner crop dialog"
-      },
-      "zoom": {
-        "text": "Zoom",
-        "context": "Label for zoom control in image crop dialog"
-      },
-      "cancel": {
-        "text": "Cancel",
-        "context": "Button label to cancel cropping"
-      },
-      "save": {
-        "text": "Save",
-        "context": "Button label to confirm cropping"
-      },
-      "showGrid": {
-        "text": "Show grid",
-        "context": "Button label to show the grid overlay in image crop dialog"
-      },
-      "hideGrid": {
-        "text": "Hide grid",
-        "context": "Button label to hide the grid overlay in image crop dialog"
-      },
-      "reset": {
-        "text": "Reset",
-        "context": "Button label to reset zoom and position in image crop dialog"
-      },
-      "cropError": {
-        "text": "Failed to crop image. Please try again.",
-        "context": "Error toast when image cropping fails"
       }
     },
     "notFound": {
       "meta": {
         "title": {
-          "text": "Not Foundhttps://goatchan.duckdns.org",
+          "text": "ไม่พบhttps://goatchan.duckdns.org",
           "context": "Page title for 404 not found page"
         },
         "description": {
-          "text": "The page you're looking for isn't here. Sorry.",
+          "text": "ไม่พบหน้าเว็บไซต์ที่คุณต้องการ ขอโทษค่ะ",
           "context": "Meta description for 404 not found page"
         }
       },
       "title": {
-        "text": "Not Found",
+        "text": "ไม่พบ",
         "context": "Main heading for 404 not found page"
       },
       "description": {
-        "text": "Nope, nothing's here!",
+        "text": "ไม่มีหน้าเว็บไซต์ที่คุณต้องการ",
         "context": "Description text explaining the page was not found"
       }
     },
@@ -485,7 +431,7 @@
           "context": "Root layout page title"
         },
         "description": {
-          "text": "A cursed and silly osu! private server for Goofy Osu Addict Team",
+          "text": "เซิร์ฟเวอร์ osu! นรกสำหรับ Goofy Osu Addict Team",
           "context": "Root layout meta description"
         }
       }
@@ -499,42 +445,42 @@
           "context": "The title for the main page of the osu! website"
         },
         "description": {
-          "text": "A silly osu! private server for Goofy Osu Addict Team",
+          "text": "เซิร์ฟเวอร์ osu! นรกสำหรับ Goofy Osu Addict Team",
           "context": "The meta description for the main page of the osu! website"
         }
       },
       "features": {
         "motto": {
-          "text": "a silly osu! private server for Goofy Osu Addict Team",
+          "text": "เซิร์ฟเวอร์ osu! <b>นรก</b>สำหรับ Goofy Osu Addict Team",
           "context": "The tagline or motto displayed on the main page"
         },
         "description": {
-          "text": "Powered by Sunrise and hosted on the worst infrastructure imaginable, GOAT-chan is as cursed and silly as it could ever be.",
+          "text": "ขับเคลื่อนโดย Sunrise และถูกโฮสต์บนระบบที่แย่ที่สุดที่จะจินตนาการได้, GOAT-chan เป็นเซิร์ฟเวอร์ไร้สาระและฉิบหายที่สุดแล้ว!",
           "context": "The main description text explaining the server's features on the homepage"
         },
         "buttons": {
           "register": {
-            "text": "Register",
+            "text": "สมัครเลย!",
             "context": "Button text to register a new account"
           },
           "wiki": {
-            "text": "Connect",
+            "text": "เชื่อมต่อกับ osu!",
             "context": "Button text linking to the connection guide"
           }
         }
       },
       "whyUs": {
-        "text": "Why?",
+        "text": "ทำไมถึงเลือกเรา?",
         "context": "Section heading asking why users should choose this server"
       },
       "cards": {
         "freeFeatures": {
           "title": {
-            "text": "Feature Rich",
+            "text": "ฟังก์ชั่นหลากหลาย",
             "context": "Title"
           },
           "description": {
-            "text": "Based on Sunrise with everything you'd expect from an osu! private server such as free osu!direct, ranked Relax/ScoreV2, and with pp algorithm based on upstream.",
+            "text": "เรามีทุกอย่างที่คุณสามารถคาดหวังจาก osu! private server เช่น osu!direct ฟรี, Ranked Relax/ScoreV2, และอัลกอริทึม pp ที่มีฐานจาก osu! หลัก!",
             "context": "Description text explaining the free features available on the server"
           }
         },
@@ -544,17 +490,17 @@
             "context": "Title of the PP system card on the main page"
           },
           "description": {
-            "text": "Hosted on infrastructure powered by Android™, the world's most widely used mobile operating system, and Termux. Surely nothing could go wrong, right...?",
+            "text": "โฮสต์บนระบบที่ขับเคลื่อนโดย Android™, ระบบมือถือที่มีผู้คนใช้มากที่สุดในโลก, และแอพ Termux. ไม่มีอะไรแย่ๆเกิดขึ้นหรอกมั้ง?...",
             "context": "Description text explaining the custom PP calculation system"
           }
         },
         "medals": {
           "title": {
-            "text": "Active Community",
+            "text": "ชุมชนที่แข็งแรง",
             "context": "Title of the medals card on the main page"
           },
           "description": {
-            "text": "We are a small yet quite an active community! From participating in all sorts of tournaments, chilling, to more... questionable activities. You won't feel left out, I promise.",
+            "text": "เราเป็นกลุ่มชุมชนที่มีคนน้อย แต่พลังเก็นร้อย! ตั้งแต่การเข้าร่วมทัวร์นาเมนต์, แชทแบบชิลๆ, ไปจนถึง... กิจกรรมน่าสงสัย. คุณไม่รู้สึกถูกทอดทิ้งแน่นอน, เราสัญญา!",
             "context": "Description text explaining the custom medals system"
           }
         },
@@ -591,87 +537,87 @@
       },
       "howToStart": {
         "title": {
-          "text": "How can I play?",
+          "text": "เล่นยังไง?",
           "context": "Section heading for the getting started guide"
         },
         "description": {
-          "text": "Easier than... uhh what was I about to say again?",
+          "text": "'ง่ายมาก! ง่ายกว่า... จะพูดว่าอะไรวะ?'",
           "context": "Description text introducing the getting started steps"
         },
         "downloadTile": {
           "title": {
-            "text": "Download osu!stable",
+            "text": "ดาวน์โหลด osu!stable",
             "context": "Title of the download step tile"
           },
           "description": {
-            "text": "If you haven't yet for some reasons",
+            "text": "เผื่อคุณยังไม่ได้ทำด้วยสาเหตุอะไรบางอย่าง",
             "context": "Description text for the download step"
           },
           "button": {
-            "text": "Download",
+            "text": "ดาวน์โหลด",
             "context": "Button text to download the osu! client"
           }
         },
         "registerTile": {
           "title": {
-            "text": "Register an account",
+            "text": "สมัครบัญชีผู้เล่น",
             "context": "Title of the registration step tile"
           },
           "description": {
-            "text": "Should be self-explanatory, no?",
+            "text": "น่าจะตรงไปตรงมานะ",
             "context": "Description text for the registration step"
           },
           "button": {
-            "text": "Sign up",
+            "text": "สมัคร",
             "context": "Button text to register a new account"
           }
         },
         "guideTile": {
           "title": {
-            "text": "Connect",
+            "text": "เชื่อมต่อ",
             "context": "Title of the connection guide step tile"
           },
           "description": {
-            "text": "I assume you know how already, but just in case...",
+            "text": "เผื่อไม่รู้วิธี",
             "context": "Description text for the connection guide step"
           },
           "button": {
-            "text": "Guide",
+            "text": "คู่มือ",
             "context": "Button text to open the connection guide"
           }
         }
       },
       "statuses": {
         "totalUsers": {
-          "text": "Total Users",
+          "text": "จำนวนผู้เล่นทั้งหมด",
           "context": "Label for the total number of registered users"
         },
         "usersOnline": {
-          "text": "Users Online",
+          "text": "จำนวนผู้เล่นที่ออนไลน์ตอนนี้",
           "context": "Label for the number of currently online users"
         },
         "usersRestricted": {
-          "text": "Users Restricted",
+          "text": "จำนวนผู้เล่นที่ถูกระงับบัญชี",
           "context": "Label for the number of restricted users"
         },
         "totalScores": {
-          "text": "Total Scores",
+          "text": "จำนวนคะแนนทั้งหมด",
           "context": "Label for the total number of scores submitted"
         },
         "serverStatus": {
-          "text": "Server Status",
+          "text": "สถานะเซิร์ฟเวอร์",
           "context": "Label for the current server status"
         },
         "online": {
-          "text": "Online",
+          "text": "ออนไลน์",
           "context": "Status indicator when the server is online"
         },
         "offline": {
-          "text": "Offline",
+          "text": "ออฟไลน์",
           "context": "Status indicator when the server is offline"
         },
         "underMaintenance": {
-          "text": "Under Maintenance",
+          "text": "กำลังปรับปรุง",
           "context": "Status indicator when the server is under maintenance"
         }
       }
@@ -679,88 +625,88 @@
     "wiki": {
       "meta": {
         "title": {
-          "text": "Wiki",
+          "text": "สิ่งควรรู้",
           "context": "The title for the wiki page of the osu! website"
         }
       },
       "header": {
-        "text": "Wiki",
+        "text": "สิ่งควรรู้",
         "context": "The main header text for the wiki page"
       },
       "articles": {
         "howToConnect": {
           "title": {
-            "text": "How to connect",
+            "text": "วิธีเชื่อมต่อ",
             "context": "Title of the wiki article explaining how to connect to the server"
           },
           "intro": {
-            "text": "Connecting to the server involves launching the osu!stable client with a special parameter. The steps below are for Windows users. If you play the game on say Linux, you are expected to know how to adapt those steps yourself.",
+            "text": "การเชื่อมต่อกับเซิร์ฟเวอร์นี้ เป็นการเปิด osu! ในเงื่อนไขพิเศษ. ขั้นตอนต่อไปนี้เป็นสำหรับ Windows. หากคุณใช้ระบบปฏิบัติการอื่นๆ เราคาดหวังว่าคุณจะสามารถประยุกต์เข้ากับระบบของคุณได้ค่ะ ",
             "context": "Introduction text explaining the prerequisites for connecting to the server"
           },
           "step1": {
-            "text": "Locate the <code>osu!.exe</code> file in the game directory.",
+            "text": "หาไฟล์ <code>osu!.exe</code> ในโฟลเดอร์เกม",
             "context": "First step instruction for connecting to the server"
           },
           "step2": {
-            "text": "Create a shortcut of the file.",
+            "text": "สร้าง Shortcut จากไฟล์นั้น",
             "context": "Second step instruction for connecting to the server"
           },
           "step3": {
-            "text": "Right click on the shortcut and select properties.",
+            "text": "กดเมาส์ขวาบน Shortcut และกด Properties",
             "context": "Third step instruction for connecting to the server"
           },
           "step4": {
-            "text": "In the target field, add <code>-devserver {serverDomain}</code> at the end of the path.",
+            "text": "ในช่อง Target ให้ใส่ <code>-devserver {serverDomain}</code> ต่อท้ายของเดิมที่มีอยู่แล้ว",
             "context": "Fourth step instruction for connecting to the server, includes server domain parameter"
           },
           "step5": {
-            "text": "Click apply and then OK.",
+            "text": "กด Apply ตามด้วย OK",
             "context": "Fifth step instruction for connecting to the server"
           },
           "step6": {
-            "text": "Double click on the shortcut to start the game.",
+            "text": "กดสองครั้งบน Shortcut เพื่อเปิดเกม",
             "context": "Sixth step instruction for connecting to the server"
           },
           "imageAlt": {
-            "text": "osu connect image",
+            "text": "รูปภาพ",
             "context": "Alt text for the connection guide image"
           }
         },
         "multipleAccounts": {
           "title": {
-            "text": "Can I have multiple accounts?",
+            "text": "มีหลายบัญชีได้มั้ย?",
             "context": "Title of the wiki article about multiple accounts policy"
           },
           "answer": {
-            "text": "No. You are only allowed to have one account per person.",
+            "text": "ไม่ได้. สามารถมีได้แค่ 1 บัญชีต่อคนเท่านั้น.",
             "context": "Direct answer to the multiple accounts question"
           },
           "consequence": {
-            "text": "If you are caught with multiple accounts, you will be banned from the server.",
+            "text": "หากถูกจับ, จะถูกระงับบัญชีทันที",
             "context": "Explanation of the consequence for having multiple accounts"
           }
         },
         "cheatsHacks": {
           "title": {
-            "text": "Can I use cheats or hacks?",
+            "text": "ใช้ซอฟต์แวร์โกงได้มั้ย?",
             "context": "Title of the wiki article about cheating policy"
           },
           "answer": {
-            "text": "No. You will be banned if you are caught.",
+            "text": "ไม่ได้, หากถูกจับจะถูกระงับบัญชีเหมือนกัน",
             "context": "Direct answer to the cheating question"
           },
           "policy": {
-            "text": "We are very strict on cheating and do not tolerate it at all.<br></br>If you suspect someone of cheating, please report them to the staff.",
+            "text": "เราเคร่งกับการโกง.<br></br>หากคุณสงสัยว่ามีคนกำลังโกงอยู่, กรุณาแจ้งให้แก่แอดมิน",
             "context": "Explanation of the cheating policy and how to report cheaters"
           }
         },
         "appealRestriction": {
           "title": {
-            "text": "I think I was restricted unfairly. How can I appeal?",
+            "text": "ฉันคิดว่าบัญชีถูกระงับอย่างไม่เป็นธรรม. อุกธรณ์ได้ที่ไหน?",
             "context": "Title of the wiki article about appealing restrictions"
           },
           "instructions": {
-            "text": "If you believe you were restricted unfairly, you can appeal your restriction by contacting the staff with your case.",
+            "text": "หากคุณเชื่อว่าบัญชีของคุณถูกระงับอย่างไม่เป็นธรรม, คุณสามารถติดต่อแอดมินเพื่อยื่นอุทธรณ์โดยตรงได้เลย",
             "context": "Instructions on how to appeal a restriction"
           },
           "contactStaff": {
@@ -797,137 +743,137 @@
     "rules": {
       "meta": {
         "title": {
-          "text": "Rules",
+          "text": "กฎ",
           "context": "The title for the rules page of the osu! website"
         }
       },
       "header": {
-        "text": "Rules",
+        "text": "กฎ",
         "context": "The main header text for the rules page"
       },
       "sections": {
         "generalRules": {
           "title": {
-            "text": "General rules",
+            "text": "กฎทั่วไป",
             "context": "Title of the general rules section"
           },
           "noCheating": {
             "title": {
-              "text": "<b>No Cheating.</b>",
+              "text": "<b>ห้ามโกง</b>",
               "context": "Title of the no cheating rule, displayed in bold"
             },
             "description": {
-              "text": "This one should be self-explanatory.",
+              "text": "คงเข้าใจร่วมกันว่าทำไม",
               "context": "Description of the no cheating rule"
             },
             "warning": {
-              "text": "This is not a sandbox server, common (osu!) sense applies here. I'm not against the idea of a potential future sandbox server, but not at the moment.",
+              "text": "นี่ไม่ใช่เซิร์ฟเวอร์ Sandbox, กฎของ osu! ถูกบังคับใช้เช่นกัน",
               "context": "Warning message for potential cheaters"
             }
           },
           "noMultiAccount": {
             "title": {
-              "text": "<b>No Multi-Accounting or Account Sharing.</b>",
+              "text": "<b>ห้ามมีหลายบัญชีหรือนำบัญชีของตนไปให็ผู้อื่นเล่นแทน</b>",
               "context": "Title of the no multi-accounting rule, displayed in bold"
             },
             "description": {
-              "text": "One and only one per person, please refrain from multi-accounting.",
+              "text": "หนึ่งบัญชีต่อหนึ่งคนเท่านั้น",
               "context": "Description of the no multi-accounting rule"
             }
           },
           "noImpersonation": {
             "title": {
-              "text": "<b>Have fun!</b>",
+              "text": "<b>เล่นให้สนุก!</b>",
               "context": "Title of the no impersonation rule, displayed in bold"
             },
             "description": {
-              "text": "Just go have fun, really.",
+              "text": "ไม่ต้องเครียด",
               "context": "Description of the no impersonation rule"
             }
           }
         },
         "chatCommunityRules": {
           "title": {
-            "text": "Community Rules",
+            "text": "กฎชุมชน",
             "context": "Title of the chat and community rules section"
           },
           "beRespectful": {
             "title": {
-              "text": "<b>Common Sense</b>",
+              "text": "<b>มีสามัญสำนึก</b>",
               "context": "Title of the be respectful rule, displayed in bold"
             },
             "description": {
-              "text": "Don't be a jerk, don't be racist, don't spam, don't do doxxing, tl;dr. just be a proper human being.",
+              "text": "เป็นคนดีศรีสังคม",
               "context": "Description of the be respectful rule"
             }
           },
           "noNSFW": {
             "title": {
-              "text": "<b>No NSFW or Inappropriate Content</b>",
+              "text": "<b>ห้ามมีสื่อลามกอนาจาร</b>",
               "context": "Title of the no NSFW content rule, displayed in bold"
             },
             "description": {
-              "text": "You don't want another InnocentHuman incident (those who know...)",
+              "text": "เอาดีๆ ไม่อยากมี InnocentHuman incident อีกรอบนะ (those who know...)",
               "context": "Description of the no NSFW content rule"
             }
           },
           "noAdvertising": {
             "title": {
-              "text": "<b>No self-promotion</b>",
+              "text": "<b>อย่าไปรโมทตัวเอง</b>",
               "context": "Title of the no advertising rule, displayed in bold"
             },
             "description": {
-              "text": "Please don't do that without explicit permission.",
+              "text": "ให้ได้รับอนุญาติก่อน",
               "context": "Description of the no advertising rule"
             }
           }
         },
         "disclaimer": {
           "title": {
-            "text": "Important Disclaimer",
+            "text": "ข้อจำกัดความรับผิดชอบ",
             "context": "Title of the important disclaimer section"
           },
           "intro": {
-            "text": "By creating and/or maintaining an account on our platform, you acknowledge and agree to the following terms:",
+            "text": "โดยการสร้างบัญชีบนเว็บไซต์นี้ คุณได้รับรู้และทราบถึงข้อตกลงต่อไปนี้:",
             "context": "Introduction text for the disclaimer section"
           },
           "noLiability": {
             "title": {
-              "text": "<b>No Liability.</b>",
+              "text": "<b>เราไม่รับผิด</b>",
               "context": "Title of the no liability disclaimer, displayed in bold"
             },
             "description": {
-              "text": "You accept full responsibility for your participation in any services provided by {appName} and acknowledge that you cannot hold the organization accountable for any consequences that may arise from your usage.",
+              "text": "คุณยอมรับความรับผิดชอบอย่างเต็มที่ต่อการกระทำของคุณใน {appName} และรับทราบว่าคุณไม่สามารถเรียกร้องความเป็นธรรมจากองค์กรได้สำหรับผลที่อาจเกิดขึ้นจากการใช้งานของคุณ",
               "context": "Description of the no liability disclaimer"
             }
           },
           "accountRestrictions": {
             "title": {
-              "text": "<b>Account Restrictions.</b>",
+              "text": "<b>การระงับบัญชี.</b>",
               "context": "Title of the account restrictions disclaimer, displayed in bold"
             },
             "description": {
-              "text": "The administration reserves the right to restrict or suspend any account, with or without prior notice, for violations of server rules or at their discretion.",
+              "text": "แอดมินขอสงวนสิทธิ์ในการจำกัดหรือระงับบัญชีใดๆ โดยไม่จำเป็นต้องแจ้งให้ทราบล่วงหน้า ในกรณีที่มีการละเมิดกฎของเซิร์ฟเวอร์ หรือตามดุลยพินิจของผู้ดูแลระบบ",
               "context": "Description of the account restrictions disclaimer"
             }
           },
           "ruleChanges": {
             "title": {
-              "text": "<b>Rule Changes.</b>",
+              "text": "<b>การเปลี่ยนกฎ</b>",
               "context": "Title of the rule changes disclaimer, displayed in bold"
             },
             "description": {
-              "text": "The server rules are subject to change at any time. The administration may update, modify, or remove any rule with or without prior notification, and all players are expected to stay informed of any changes.",
+              "text": "กฎของเซิร์ฟเวอร์สามารถเปลี่ยนแปลงได้ตลอดเวลา แอดมินสามารถอัปเดต แก้ไข หรือลบกฎใดๆ โดยไม่จำเป็นต้องแจ้งให้ทราบล่วงหน้า และผู้เล่นทุกคนควรติดตามการเปลี่ยนแปลงใดๆอยู่เสมอ",
               "context": "Description of the rule changes disclaimer"
             }
           },
           "agreementByParticipation": {
             "title": {
-              "text": "<b>Agreement by Participation.</b>",
+              "text": "<b>การตกลง</b>",
               "context": "Title of the agreement by participation disclaimer, displayed in bold"
             },
             "description": {
-              "text": "By creating and/or maintaining an account on the server, you automatically agree to these terms and commit to adhering to the rules and guidelines in effect at the time.",
+              "text": "โดยการมีบัญชีบนเซิร์ฟเวอร์ คุณยอมรับข้อกำหนดเหล่านี้โดยอัตโนมัติ และตกลงที่จะปฏิบัติตามกฎและแนวทางที่บังคับใช้ในขณะนั้น",
               "context": "Description of the agreement by participation disclaimer"
             }
           }
@@ -937,54 +883,54 @@
     "register": {
       "meta": {
         "title": {
-          "text": "Register",
+          "text": "สมัครบัญชีผู้เล่น",
           "context": "The title for the register page of the osu! website"
         }
       },
       "header": {
-        "text": "Register",
+        "text": "สมัครบัญชีผู้เล่น",
         "context": "The main header text for the register page"
       },
       "welcome": {
         "title": {
-          "text": "Welcome to GOAT-chan!",
+          "text": "ยินดีต้อนรับสู่ GOAT-chan!",
           "context": "Welcome title on the registration page"
         },
         "description": {
-          "text": "No explaination needed, you know what to do now.",
+          "text": "ไม่ต้องอธิบายอะไรมาก",
           "context": "Welcome description text with link to wiki page"
         }
       },
       "form": {
         "title": {
-          "text": "Enter your details",
+          "text": "กรอกข้อมูลของท่าน",
           "context": "Title for the registration form section"
         },
         "labels": {
           "username": {
-            "text": "Username",
+            "text": "ชื่อผู้เล่น",
             "context": "Label for the username input field"
           },
           "email": {
-            "text": "Email",
+            "text": "อีเมล์",
             "context": "Label for the email input field"
           },
           "password": {
-            "text": "Password",
+            "text": "รหัสผ่าน",
             "context": "Label for the password input field"
           },
           "confirmPassword": {
-            "text": "Confirm Password",
+            "text": "ยืนยันรหัสผ่าน",
             "context": "Label for the confirm password input field"
           }
         },
         "placeholders": {
           "username": {
-            "text": "e.g. mrekk",
+            "text": "เช่น mrekk",
             "context": "Placeholder text for the username input field"
           },
           "email": {
-            "text": "e.g. hoshino@kawaii.moe",
+            "text": "เช่น hoshino@kawaii.moe",
             "context": "Placeholder text for the email input field"
           },
           "password": {
@@ -994,72 +940,72 @@
         },
         "validation": {
           "usernameMin": {
-            "text": "Username must be at least {min} characters.",
+            "text": "ชื่อผู้เล่นต้องมีความยาวอย่างน้อย {min} ตัวอักษร",
             "context": "Validation error message when username is too short, includes minimum length parameter"
           },
           "usernameMax": {
-            "text": "Username must be {max} characters or fewer.",
+            "text": "ชื่อผู้เล่นต้องมีความยาวไม่เกิน {max} ตัวอักษร",
             "context": "Validation error message when username is too long, includes maximum length parameter"
           },
           "passwordMin": {
-            "text": "Password must be at least {min} characters.",
+            "text": "รหัสผ่านต้องมีความยาวอย่างน้อย {min} ตัวอักษร",
             "context": "Validation error message when password is too short, includes minimum length parameter"
           },
           "passwordMax": {
-            "text": "Password must be {max} characters or fewer.",
+            "text": "รหัสผ่านต้องมีความยาวไม่เกิน {max} ตัวอักษร",
             "context": "Validation error message when password is too long, includes maximum length parameter"
           },
           "passwordsDoNotMatch": {
-            "text": "Passwords do not match",
+            "text": "รหัสผ่านไม่ตรงกัน",
             "context": "Validation error message when password and confirm password do not match"
           }
         },
         "error": {
           "title": {
-            "text": "Error",
+            "text": "เกิดข้อผิดพลาด",
             "context": "Title for the error alert"
           },
           "unknown": {
-            "text": "Unknown error.",
+            "text": "เกิดข้อผิดพลาดขึ้น",
             "context": "Generic error message when an unknown error occurs"
           }
         },
         "submit": {
-          "text": "Register",
+          "text": "สมัครเลย!",
           "context": "Text for the registration submit button"
         },
         "terms": {
-          "text": "By signing up, you agree to the server <a>rules</a>",
+          "text": "โดยการสมัครนั้น คุณยินยอมต่อ <a>กฎ</a> ของเซิร์ฟเวอร์",
           "context": "Terms agreement text with link to rules page"
         }
       },
       "success": {
         "dialog": {
           "title": {
-            "text": "You're all set!",
+            "text": "เสร็จเรียบร้อย!",
             "context": "Title of the success dialog after registration"
           },
           "description": {
-            "text": "Your account has been successfully created.",
+            "text": "บัญชีผู้เล่นของคุณถูกสร้างชึ้นแล้ว",
             "context": "Description in the success dialog"
           },
           "message": {
-            "text": "You may now customize it however you want, and start playing the game. Have fun!",
+            "text": "คุณสามารถปรับแต่งโปรไฟล์ของคุณ และเริ่มเล่นตัวเกมได้แล้ว!",
             "context": "Success message with link to wiki page"
           },
           "buttons": {
             "viewWiki": {
-              "text": "How to connect?",
+              "text": "วิธีเชื่อมต่อ",
               "context": "Button text to view the wiki guide"
             },
             "goToProfile": {
-              "text": "Go to Profile",
+              "text": "ไปที่โปรไฟล์ของฉัน",
               "context": "Button text to go to user profile"
             }
           }
         },
         "toast": {
-          "text": "Account successfully created!",
+          "text": "บัญชีผู้เล่นถูกสร้างขึ้นอย่างสำเร็จแล้ว",
           "context": "Toast notification message when account is successfully created"
         }
       }
@@ -1067,30 +1013,30 @@
     "support": {
       "meta": {
         "title": {
-          "text": "Support",
+          "text": "สนับสนุนเรา",
           "context": "The title for the support page of the osu! website"
         }
       },
       "header": {
-        "text": "Support",
+        "text": "สนับสนุนเรา",
         "context": "The main header text for the support page"
       },
       "section": {
         "title": {
-          "text": "Want to help?",
+          "text": "อยากที่จะช่วยเรามั้ย?",
           "context": "Title of the support section explaining how users can help"
         },
         "intro": {
-          "text": "The creation of GOAT-chan is a challenge that I set for myself, because of that I don't seek to gain anything from it (aside from experience, of course!) But if you feel like helping someone, here are a few ways to help:",
+          "text": "การสร้าง GOAT-chan เป็นเป้าหมายส่วนตัวของผม ผมเลยไม่ได้คาดหวังที่จะได้อะไรคืนมา(นอกจากประสบการณ์) แต่หากคุณอยากจะช่วยสนับสนุนโปรเจกต์นี้ ก็มีวิธีดังต่อไปนี้ครับThe creation of GOAT-chan is a challenge that I set for myself, because of that I don't seek to gain anything from it (aside from experience, of course!) But if you feel like helping someone, here are a few ways to help:",
           "context": "Introduction text explaining why support is needed, includes bold text for emphasis and line breaks"
         },
         "donate": {
           "title": {
-            "text": "<b>Donate.</b>",
+            "text": "<b>บริจาคเงินสนับสนุน</b>",
             "context": "Title of the donation option, displayed in bold"
           },
           "description": {
-            "text": "Your generous donations help us maintain and enhance the osu! servers. Every little bit counts! With your support, we can cover hosting costs, implement new features, and ensure a smoother experience for everyone.",
+            "text": "คุณสามารถช่วยเราพัฒนาเซิร์ฟเวอร์นี้ได้ด้วยการบริจาคให้กับพวกเรา!",
             "context": "Description text explaining how donations help the server"
           },
           "buttons": {
@@ -1106,234 +1052,22 @@
         },
         "spreadTheWord": {
           "title": {
-            "text": "<b>Just go have fun!</b>",
+            "text": "<b>เล่นให้สนุก ยังไงก็ได้</b>",
             "context": "Title of the spread the word option, displayed in bold"
           },
           "description": {
-            "text": "Try to get #1, abuse the fuck out of the pp system, crash the underlying infrastructure, anything that you feel like doing. That's the whole point, and I will also get to have fun re-purposing and messing with e-waste.",
+            "text": "พยายามเอา #1, ใช้ประโยชน์จากระบบ pp, อะไรก็ได้",
             "context": "Description text encouraging users to share the server"
           }
         },
         "justPlay": {
           "title": {
-            "text": "<b>Contribute to Sunrise</b>",
+            "text": "<b>สนับสนุน Sunrise</b>",
             "context": "Title of the just play option, displayed in bold"
           },
           "description": {
-            "text": "GOAT-chan utilizes Sunrise's server stack under the hood, so without it this server would've never existed to begin with. Go donate to them, contribute new features, bug fixes, anything to Sunrise, Sunset, Observatory, Solar, you name it! This will make the osu! private server space more vibrant, and will only benefit the community.",
+            "text": "GOAT-chan ใช้เซิร์ฟเวอร์ของ Sunrise เป็นรากฐาน ดังนั้นถ้าไม่มี Sunrise, ก็ไม่มีเรา",
             "context": "Description text explaining that playing on the server is a form of support"
-          }
-        }
-      }
-    },
-    "patcher": {
-      "meta": {
-        "title": {
-          "text": "Sunrise Patcher | {appName}",
-          "context": "The title for the Sunrise Patcher page"
-        }
-      },
-      "header": {
-        "text": "Sunrise Patcher",
-        "context": "The main header text for the patcher page"
-      },
-      "description": {
-        "text": "Sunrise Patcher is a community fork of <a>rushiiMachine/osu-patcher</a> focused on Relax improvements, live PP tools, and practical osu! quality-of-life fixes.",
-        "context": "Concise summary of what Sunrise Patcher does with original project credit"
-      },
-      "warning": {
-        "text": "This is for use in offline play or private servers that allow modifications only. Use at your own risk! Modifications are disallowed on most servers, even though this project does not provide an unfair advantage.",
-        "context": "Warning about patcher usage restrictions"
-      },
-      "banchoWarning": {
-        "text": "Using this on official Bancho servers WILL get you banned.",
-        "context": "Strong warning about using patcher on official servers"
-      },
-      "features": {
-        "title": {
-          "text": "Features",
-          "context": "Section header for the features list"
-        },
-        "relax": {
-          "title": {
-            "text": "Relax",
-            "context": "Feature category title for Relax-related features"
-          },
-          "showMisses": {
-            "text": "Show misses on hit objects while playing Relax",
-            "context": "Feature: showing misses during Relax gameplay"
-          },
-          "combobreak": {
-            "text": "Re-enable combobreak sounds with Relax enabled",
-            "context": "Feature: combobreak sounds in Relax mode"
-          },
-          "saveScores": {
-            "text": "Save all Relax scores to local leaderboards automatically",
-            "context": "Feature: automatic local score saving for Relax"
-          },
-          "allowFailing": {
-            "text": "Allow failing with Relax enabled (toggleable)",
-            "context": "Feature: toggleable failing in Relax mode"
-          },
-          "lowHpGlow": {
-            "text": "Re-enable the low hp glow (with shaders on)",
-            "context": "Feature: low HP glow effect in Relax mode"
-          },
-          "note": {
-            "text": "Note: Relax refers to Relax or Autopilot",
-            "context": "Clarification that Relax features apply to both Relax and Autopilot"
-          }
-        },
-        "pp": {
-          "title": {
-            "text": "PP",
-            "context": "Feature category title for PP-related features"
-          },
-          "liveCounter": {
-            "text": "Show a live pp counter during gameplay and replays",
-            "context": "Feature: live PP counter"
-          },
-          "switchCalculators": {
-            "text": "Switch between Bancho and Sunrise pp calculators",
-            "context": "Feature: switchable PP calculators"
-          }
-        },
-        "mods": {
-          "title": {
-            "text": "Mods",
-            "context": "Feature category title for mod-related features"
-          },
-          "showActiveMods": {
-            "text": "Always faintly show active mods during gameplay",
-            "context": "Feature: visible active mods during gameplay"
-          },
-          "autoRestart": {
-            "text": "Auto restart when failed due to Sudden Death mod",
-            "context": "Feature: auto restart on Sudden Death failure"
-          }
-        },
-        "ui": {
-          "title": {
-            "text": "UI",
-            "context": "Feature category title for UI-related features"
-          },
-          "thumbnailOpacity": {
-            "text": "Increase the thumbnail opacity in song select",
-            "context": "Feature: increased thumbnail opacity"
-          },
-          "settingsInGameplay": {
-            "text": "Allow opening settings during gameplay with Ctrl+O",
-            "context": "Feature: open settings during gameplay"
-          }
-        },
-        "other": {
-          "title": {
-            "text": "Other",
-            "context": "Feature category title for miscellaneous features"
-          },
-          "miscFixes": {
-            "text": "Other miscellaneous fixes",
-            "context": "Feature: various other fixes"
-          }
-        }
-      },
-      "featureSummary": {
-        "relax": {
-          "title": {
-            "text": "Relax Gameplay",
-            "context": "Short summary title for Relax-related patcher features"
-          },
-          "description": {
-            "text": "Improves Relax/Autopilot feel with miss visibility, combobreak audio, fail toggle, local score saving, and low HP glow.",
-            "context": "Condensed summary of Relax category features"
-          }
-        },
-        "pp": {
-          "title": {
-            "text": "PP Tools",
-            "context": "Short summary title for PP-related patcher features"
-          },
-          "description": {
-            "text": "Adds a live pp counter and lets you switch between Bancho and Sunrise pp calculators.",
-            "context": "Condensed summary of PP category features"
-          }
-        },
-        "mods": {
-          "title": {
-            "text": "Mods Awareness",
-            "context": "Short summary title for mod-related patcher features"
-          },
-          "description": {
-            "text": "Keeps active mods visible in-game and can auto-restart runs failed by Sudden Death.",
-            "context": "Condensed summary of mod category features"
-          }
-        },
-        "ui": {
-          "title": {
-            "text": "Interactive UI",
-            "context": "Short summary title for UI-related patcher features"
-          },
-          "description": {
-            "text": "You can update patcher related settings in the osu! options menu",
-            "context": "Condensed summary of UI category features"
-          }
-        },
-        "other": {
-          "title": {
-            "text": "Extra Fixes",
-            "context": "Short summary title for miscellaneous patcher fixes"
-          },
-          "description": {
-            "text": "Includes additional small fixes that polish gameplay behavior.",
-            "context": "Condensed summary of miscellaneous fixes"
-          }
-        }
-      },
-      "download": {
-        "text": "Download Patcher",
-        "context": "Button text to download the Sunrise Patcher"
-      },
-      "previews": {
-        "settings": {
-          "title": {
-            "text": "Feature Toggle Panel",
-            "context": "Title for the settings preview slide"
-          },
-          "description": {
-            "text": "Enable or disable individual patches quickly from one settings panel.",
-            "context": "Description for the settings preview slide"
-          },
-          "alt": {
-            "text": "Patcher settings preview",
-            "context": "Alt text for the patcher settings screenshot"
-          }
-        },
-        "relaxRanking": {
-          "title": {
-            "text": "Relax Ranking View",
-            "context": "Title for the relax ranking preview slide"
-          },
-          "description": {
-            "text": "Track and review Relax scores through a dedicated local ranking display.",
-            "context": "Description for the relax ranking preview slide"
-          },
-          "alt": {
-            "text": "Relax ranking panel preview",
-            "context": "Alt text for the relax ranking panel screenshot"
-          }
-        },
-        "ppCounter": {
-          "title": {
-            "text": "In-Game PP Overlay",
-            "context": "Title for the PP counter preview slide"
-          },
-          "description": {
-            "text": "Monitor PP changes in real time while playing or watching replays.",
-            "context": "Description for the PP counter preview slide"
-          },
-          "alt": {
-            "text": "Live PP counter preview",
-            "context": "Alt text for the live PP counter screenshot"
           }
         }
       }
@@ -1341,16 +1075,16 @@
     "topplays": {
       "meta": {
         "title": {
-          "text": "Top Plays",
+          "text": "คะแนนสูงสุด",
           "context": "The title for the top plays page of the osu! website"
         }
       },
       "header": {
-        "text": "Top plays",
+        "text": "คะแนนสูงสุด",
         "context": "The main header text for the top plays page"
       },
       "showMore": {
-        "text": "Show more",
+        "text": "แสดงเพิ่ม",
         "context": "Button text to load more top plays"
       },
       "components": {
@@ -1360,7 +1094,7 @@
             "context": "Abbreviation for performance points, displayed after the PP value"
           },
           "accuracy": {
-            "text": "acc:",
+            "text": "ความแม่นยำ:",
             "context": "Abbreviation for accuracy, displayed before the accuracy percentage"
           }
         }
@@ -1369,73 +1103,73 @@
     "score": {
       "meta": {
         "title": {
-          "text": "{username} on {beatmapTitle} [{beatmapVersion}]https://goatchan.duckdns.org",
+          "text": "{username} ในแมพ {beatmapTitle} [{beatmapVersion}]https://goatchan.duckdns.org",
           "context": "The title for the score page, includes username, beatmap title, version, and app name as parameters"
         },
         "description": {
-          "text": "User {username} has scored {pp}pp on {beatmapTitle} [{beatmapVersion}] in {appName}.",
+          "text": "{username} ได้ {pp}pp ในแมพ {beatmapTitle} [{beatmapVersion}] in {appName}.",
           "context": "The meta description for the score page, includes username, PP value, beatmap title, version, and app name as parameters"
         },
         "openGraph": {
           "title": {
-            "text": "{username} on {beatmapTitle} - {beatmapArtist} [{beatmapVersion}]https://goatchan.duckdns.org",
+            "text": "{username} ในแมพ {beatmapTitle} - {beatmapArtist} [{beatmapVersion}]https://goatchan.duckdns.org",
             "context": "The OpenGraph title for the score page, includes username, beatmap title, artist, version, and app name as parameters"
           },
           "description": {
-            "text": "User {username} has scored {pp}pp on {beatmapTitle} - {beatmapArtist} [{beatmapVersion}] ★{starRating} {mods} in {appName}.",
+            "text": "{username} ได้ {pp}pp ในแมพ {beatmapTitle} - {beatmapArtist} [{beatmapVersion}] ★{starRating} {mods} ใน {appName}.",
             "context": "The OpenGraph description for the score page, includes username, PP value, beatmap title, artist, version, star rating, mods, and app name as parameters"
           }
         }
       },
       "header": {
-        "text": "Score Performance",
+        "text": "คะแนน",
         "context": "The main header text for the score page"
       },
       "beatmap": {
         "versionUnknown": {
-          "text": "Unknown",
+          "text": "ไม่พบ",
           "context": "Fallback text when beatmap version is not available"
         },
         "mappedBy": {
-          "text": "mapped by",
+          "text": "แมพโดย",
           "context": "Text displayed before the beatmap creator name"
         },
         "creatorUnknown": {
-          "text": "Unknown Creator",
+          "text": "ไม่ทราบผู้สร้าง",
           "context": "Fallback text when beatmap creator is not available"
         }
       },
       "score": {
         "submittedOn": {
-          "text": "Submitted on",
+          "text": "ในวันที่",
           "context": "Text displayed before the score submission date"
         },
         "playedBy": {
-          "text": "Played by",
+          "text": "โดย",
           "context": "Text displayed before the player username"
         },
         "userUnknown": {
-          "text": "Unknown user",
+          "text": "ไม่ทราบผู้เล่น",
           "context": "Fallback text when user is not available"
         }
       },
       "actions": {
         "downloadReplay": {
-          "text": "Download Replay",
+          "text": "โหลด Replay",
           "context": "Button text to download the replay file"
         },
         "openMenu": {
-          "text": "Open menu",
+          "text": "เปิดเมนู",
           "context": "Screen reader text for the dropdown menu button"
         }
       },
       "error": {
         "notFound": {
-          "text": "Score not found",
+          "text": "ไม่พบคะแนน",
           "context": "Error message when score cannot be found"
         },
         "description": {
-          "text": "The score you are looking for does not exist or has been deleted.",
+          "text": "คะแนนที่คุณตามหาอยู่ ไม่มีจริงหรือถูกลบ",
           "context": "Error description explaining that the score doesn't exist or was deleted"
         }
       }
@@ -1443,80 +1177,80 @@
     "leaderboard": {
       "meta": {
         "title": {
-          "text": "Leaderboard",
+          "text": "การจัดอันดับ",
           "context": "The title for the leaderboard page of the osu! website"
         }
       },
       "header": {
-        "text": "Leaderboard",
+        "text": "การจัดอันดับ",
         "context": "The main header text for the leaderboard page"
       },
       "sortBy": {
         "label": {
-          "text": "Sort by:",
+          "text": "เรียงตาม:",
           "context": "Label for the sort by selector on mobile view"
         },
         "performancePoints": {
-          "text": "Performance points",
+          "text": "แต้ม pp",
           "context": "Button text for sorting by performance points"
         },
         "rankedScore": {
-          "text": "Ranked Score",
+          "text": "จำนวนคะแนน Ranked",
           "context": "Button text for sorting by ranked score"
         },
         "performancePointsShort": {
-          "text": "Perf. points",
+          "text": "pp",
           "context": "Short label for performance points in mobile combobox"
         },
         "scoreShort": {
-          "text": "Score",
+          "text": "คะแนน",
           "context": "Short label for score in mobile combobox"
         }
       },
       "table": {
         "columns": {
           "rank": {
-            "text": "Rank",
+            "text": "อันดับผู้เล่น",
             "context": "Column header for user rank"
           },
           "performance": {
-            "text": "Performance",
+            "text": "pp",
             "context": "Column header for performance points"
           },
           "rankedScore": {
-            "text": "Ranked Score",
+            "text": "จำนวนคะแนน Ranked",
             "context": "Column header for ranked score"
           },
           "accuracy": {
-            "text": "Accuracy",
+            "text": "ความแม่นยำ",
             "context": "Column header for accuracy"
           },
           "playCount": {
-            "text": "Play count",
+            "text": "จำนวนครั้งในการเล่น",
             "context": "Column header for play count"
           }
         },
         "actions": {
           "openMenu": {
-            "text": "Open menu",
+            "text": "เปิดเมนู",
             "context": "Screen reader text for the dropdown menu button"
           },
           "viewUserProfile": {
-            "text": "View user profile",
+            "text": "ดูโปรไฟล์",
             "context": "Dropdown menu item text to view user profile"
           }
         },
         "emptyState": {
-          "text": "No results.",
+          "text": "ไม่มีข้อมูล",
           "context": "Message displayed when there are no results in the table"
         },
         "pagination": {
           "usersPerPage": {
-            "text": "users per page",
+            "text": "จำนวนผู้เล่นต่อหน้า",
             "context": "Label for the users per page selector"
           },
           "showing": {
-            "text": "Showing {start} - {end} of {total}",
+            "text": "ตั้งแต่ {start} - {end} จาก {total}",
             "context": "Pagination text showing the range of displayed users, includes start, end, and total as parameters"
           }
         }
@@ -1525,44 +1259,44 @@
     "friends": {
       "meta": {
         "title": {
-          "text": "Friends",
+          "text": "เพื่อน",
           "context": "The title for the friends page of the osu! website"
         }
       },
       "header": {
-        "text": "Your Connections",
+        "text": "คนที่คุณเชื่อมต่อด้วย",
         "context": "The main header text for the friends page"
       },
       "tabs": {
         "friends": {
-          "text": "Friends",
+          "text": "เพื่อน",
           "context": "Button text to show friends list"
         },
         "followers": {
-          "text": "Followers",
+          "text": "ผู้ติดตาม",
           "context": "Button text to show followers list"
         }
       },
       "sorting": {
         "label": {
-          "text": "Sort by:",
+          "text": "เรียงตาม:",
           "context": "Label for the sort by selector"
         },
         "username": {
-          "text": "Username",
+          "text": "ชื่อผู้เล่น",
           "context": "Sorting option to sort by username"
         },
         "recentlyActive": {
-          "text": "Recently active",
+          "text": "ออนไลน์ล่าสุด",
           "context": "Sorting option to sort by recently active users"
         }
       },
       "showMore": {
-        "text": "Show more",
+        "text": "แสดงเพิ่ม",
         "context": "Button text to load more users"
       },
       "emptyState": {
-        "text": "No users found",
+        "text": "ไม่พบผู้เล่น",
         "context": "Message displayed when there are no users in the list"
       }
     },
@@ -1570,33 +1304,33 @@
       "search": {
         "meta": {
           "title": {
-            "text": "Beatmaps search",
+            "text": "ค้นหาบีทแมพ",
             "context": "The title for the beatmaps search page of the osu! website"
           }
         },
         "header": {
-          "text": "Beatmaps search",
+          "text": "ค้นหาบีทแมพ",
           "context": "The main header text for the beatmaps search page"
         }
       },
       "detail": {
         "meta": {
           "title": {
-            "text": "Beatmap info",
+            "text": "ข้อมูลบีทแมพ",
             "context": "The title for the beatmap detail page of the osu! website"
           }
         },
         "header": {
-          "text": "Beatmap info",
+          "text": "ข้อมูลบีทแมพ",
           "context": "The header text for the beatmap detail page"
         },
         "notFound": {
           "title": {
-            "text": "Beatmapset not found",
+            "text": "ไม่พบเซ็ตบีทแมพ",
             "context": "Title displayed when a beatmapset is not found"
           },
           "description": {
-            "text": "The beatmapset you are looking for does not exist or has been deleted.",
+            "text": "เซ็ตบีทแมพที่คุณตามหาอยู่ ไม่มีจริงหรือถูกลบ",
             "context": "Description message when a beatmapset is not found or has been deleted"
           }
         }
@@ -1604,36 +1338,36 @@
       "components": {
         "search": {
           "searchPlaceholder": {
-            "text": "Search beatmaps...",
+            "text": "ค้นหาบีทแมพ...",
             "context": "Placeholder text for the beatmaps search input field"
           },
           "filters": {
-            "text": "Filters",
+            "text": "ตัวกรองข้อมูล",
             "context": "Button text to toggle filters panel"
           },
           "viewMode": {
             "grid": {
-              "text": "Grid",
+              "text": "ตาราง",
               "context": "Button text for grid view mode"
             },
             "list": {
-              "text": "List",
+              "text": "รายการ",
               "context": "Button text for list view mode"
             }
           },
           "showMore": {
-            "text": "Show more",
+            "text": "แสดงเพิ่ม",
             "context": "Button text to load more beatmapsets"
           }
         },
         "filters": {
           "mode": {
             "label": {
-              "text": "Mode",
+              "text": "โหมด",
               "context": "Label for the game mode filter selector"
             },
             "any": {
-              "text": "Any",
+              "text": "ทุกอย่าง",
               "context": "Option to select any game mode (no filter)"
             },
             "standard": {
@@ -1655,18 +1389,18 @@
           },
           "status": {
             "label": {
-              "text": "Status",
+              "text": "สถานะ",
               "context": "Label for the beatmap status filter selector"
             }
           },
           "searchByCustomStatus": {
             "label": {
-              "text": "Search by Custom Status",
+              "text": "ค้นหาตามสถานะ",
               "context": "Label for the search by custom status toggle switch"
             }
           },
           "applyFilters": {
-            "text": "Apply Filters",
+            "text": "ใช้ตัวกรอง",
             "context": "Button text to apply the selected filters"
           }
         }
@@ -1679,7 +1413,7 @@
           "context": "The title for the beatmapset detail page, includes artist and title as parameters"
         },
         "description": {
-          "text": "Beatmapset info for {title} by {artist}",
+          "text": "ข้อมูลเซ็ตบีทแมพสำหรับ {title} โดย {artist}",
           "context": "The meta description for the beatmapset detail page, includes title and artist as parameters"
         },
         "openGraph": {
@@ -1688,111 +1422,111 @@
             "context": "The OpenGraph title for the beatmapset detail page, includes artist and title as parameters"
           },
           "description": {
-            "text": "Beatmapset info for {title} by {artist} {difficultyInfo}",
+            "text": "ข้อมูลเซ็ตบีทแมพสำหรับ {title} โดย {artist} {difficultyInfo}",
             "context": "The OpenGraph description for the beatmapset detail page, includes title, artist, and optional difficulty info as parameters"
           }
         }
       },
       "header": {
-        "text": "Beatmap info",
+        "text": "ข้อมูลบีทแมพ",
         "context": "The main header text for the beatmapset detail page"
       },
       "error": {
         "notFound": {
           "title": {
-            "text": "Beatmapset not found",
+            "text": "ไม่พบเซ็ตบีทแมพ",
             "context": "Title displayed when a beatmapset is not found"
           },
           "description": {
-            "text": "The beatmapset you are looking for does not exist or has been deleted.",
+            "text": "เซ็ตบีทแมพที่คุณตามหาอยู่ ไม่มีจริงหรือถูกลบ",
             "context": "Description message when a beatmapset is not found or has been deleted"
           }
         }
       },
       "submission": {
         "submittedBy": {
-          "text": "submitted by",
+          "text": "โดย",
           "context": "Text label indicating who submitted the beatmapset"
         },
         "submittedOn": {
-          "text": "submitted on",
+          "text": "ในวันที่",
           "context": "Text label indicating when the beatmapset was submitted"
         },
         "rankedOn": {
-          "text": "ranked on",
+          "text": "Ranked ในวันที่",
           "context": "Text label indicating when the beatmapset was ranked"
         },
         "statusBy": {
-          "text": "{status} by",
+          "text": "{status} โดย",
           "context": "Text indicating the beatmap status and who set it, includes status as parameter"
         }
       },
       "video": {
         "tooltip": {
-          "text": "This beatmap contains video",
+          "text": "บีทแมพนี้มีวิดิโอ",
           "context": "Tooltip text for the video icon indicating the beatmap has a video"
         }
       },
       "description": {
         "header": {
-          "text": "Description",
+          "text": "คำอธิบาย",
           "context": "Header text for the beatmapset description section"
         }
       },
       "components": {
         "dropdown": {
           "openMenu": {
-            "text": "Open menu",
+            "text": "เปิดเมนู",
             "context": "Screen reader text for the dropdown menu button"
           },
           "ppCalculator": {
-            "text": "PP Calculator",
+            "text": "คำนวณ pp",
             "context": "Dropdown menu item text to open PP calculator"
           },
           "openOnBancho": {
-            "text": "Open on Bancho",
+            "text": "เปิดใน Bancho",
             "context": "Dropdown menu item text to open beatmap on official osu! website"
           },
           "openWithAdminPanel": {
-            "text": "Open with Admin Panel",
+            "text": "เปิดด้วยแผงแอดมิน",
             "context": "Dropdown menu item text to open beatmap in admin panel (for BAT users)"
           }
         },
         "infoAccordion": {
           "communityHype": {
-            "text": "Community Hype",
+            "text": "Hype",
             "context": "Header text for the community hype section"
           },
           "information": {
-            "text": "Information",
+            "text": "ข้อมูล",
             "context": "Header text for the beatmap information section"
           },
           "metadata": {
             "genre": {
-              "text": "Genre",
+              "text": "ประเภท",
               "context": "Label for the beatmap genre"
             },
             "language": {
-              "text": "Language",
+              "text": "ภาษา",
               "context": "Label for the beatmap language"
             },
             "tags": {
-              "text": "Tags",
+              "text": "แท็ก",
               "context": "Label for the beatmap tags"
             }
           }
         },
         "downloadButtons": {
           "download": {
-            "text": "Download",
+            "text": "ดาวน์โหลด",
             "context": "Button text to download the beatmapset"
           },
           "withVideo": {
-            "text": "with Video",
+            "text": "แบบมีวิดิโอ",
             "context": "Text indicating the download includes video"
           },
           "withoutVideo": {
-            "text": "without Video",
+            "text": "แบบไม่มีวิดิโอ",
             "context": "Text indicating the download excludes video"
           },
           "osuDirect": {
@@ -1803,7 +1537,7 @@
         "difficultyInformation": {
           "tooltips": {
             "totalLength": {
-              "text": "Total Length",
+              "text": "ความยาว",
               "context": "Tooltip text for the total length of the beatmap"
             },
             "bpm": {
@@ -1811,121 +1545,121 @@
               "context": "Tooltip text for beats per minute"
             },
             "starRating": {
-              "text": "Star Rating",
+              "text": "ดาว",
               "context": "Tooltip text for the star rating"
             }
           },
           "labels": {
             "keyCount": {
-              "text": "Key Count:",
+              "text": "จำนวนคีย์:",
               "context": "Label for the key count (mania mode)"
             },
             "circleSize": {
-              "text": "Circle Size:",
+              "text": "ขนาดวงกลม:",
               "context": "Label for circle size (standard/catch mode)"
             },
             "hpDrain": {
-              "text": "HP Drain:",
+              "text": "อัตราการลด HP:",
               "context": "Label for HP drain"
             },
             "accuracy": {
-              "text": "Accuracy:",
+              "text": "ความแม่นยำ:",
               "context": "Label for accuracy difficulty"
             },
             "approachRate": {
-              "text": "Approach Rate:",
+              "text": "อัตราการเข้าใกล้:",
               "context": "Label for approach rate (standard/catch mode)"
             }
           }
         },
         "nomination": {
           "description": {
-            "text": "Hype this map if you enjoyed playing it to help it progress to <b>Ranked</b> status.",
+            "text": "Hype แมพนี้เพื่อช่วยให้ได้สถานะ <b>Ranked</b>",
             "context": "Description text explaining the hype feature, includes bold tag for Ranked"
           },
           "hypeProgress": {
-            "text": "Hype progress",
+            "text": "ความคืบหน้าการ Hype",
             "context": "Label for the hype progress indicator"
           },
           "hypeBeatmap": {
-            "text": "Hype beatmap!",
+            "text": "Hype แมพนี้!",
             "context": "Button text to hype a beatmap"
           },
           "hypesRemaining": {
-            "text": "You have <b>{count} hypes</b> remaining for this week",
+            "text": "คุณสามารถ Hype ได้อีก <b>{count}</b> ครั้งในสัปดาห์นี้",
             "context": "Text showing remaining hypes for the week, includes count as parameter and bold tag"
           },
           "toast": {
             "success": {
-              "text": "Beatmap hyped successfully!",
+              "text": "คุณได้ Hype บีทแมพนี้แล้ว!",
               "context": "Success toast message when a beatmap is hyped"
             },
             "error": {
-              "text": "Error occured while hyping beatmapset!",
+              "text": "เกิดข้อผิดพลาดระหว่างการ Hype",
               "context": "Error toast message when hyping fails"
             }
           }
         },
         "ppCalculator": {
           "title": {
-            "text": "PP Calculator",
+            "text": "คำนวณ pp",
             "context": "Title of the PP calculator dialog"
           },
           "pp": {
-            "text": "PP: <b>{value}</b>",
+            "text": "pp: <b>{value}</b>",
             "context": "Label for performance points"
           },
           "totalLength": {
-            "text": "Total Length",
+            "text": "ความยาว",
             "context": "Tooltip text for total length in PP calculator"
           },
           "form": {
             "accuracy": {
               "label": {
-                "text": "Accuracy",
+                "text": "ความแม่นยำ",
                 "context": "Form label for accuracy input"
               },
               "validation": {
                 "negative": {
-                  "text": "Accuracy can't be negative",
+                  "text": "ความแม่นยำไมาสามารถติดลบได้",
                   "context": "Validation error message for negative accuracy"
                 },
                 "tooHigh": {
-                  "text": "Accuracy can't be greater that 100",
+                  "text": "ความแม่นยำไม่สามารถเกิน 100% ได้",
                   "context": "Validation error message for accuracy over 100"
                 }
               }
             },
             "combo": {
               "label": {
-                "text": "Combo",
+                "text": "คอมโบ",
                 "context": "Form label for combo input"
               },
               "validation": {
                 "negative": {
-                  "text": "Combo can't be negative",
+                  "text": "คอมโบไม่สามารถติดลบได้",
                   "context": "Validation error message for negative combo"
                 }
               }
             },
             "misses": {
               "label": {
-                "text": "Misses",
+                "text": "พลาด",
                 "context": "Form label for misses input"
               },
               "validation": {
                 "negative": {
-                  "text": "Misses can't be negative",
+                  "text": "จำนวนพลาดไม่สามารถติดลบได้",
                   "context": "Validation error message for negative misses"
                 }
               }
             },
             "calculate": {
-              "text": "Calculate",
+              "text": "คำนวณ",
               "context": "Button text to calculate PP"
             },
             "unknownError": {
-              "text": "Unknown error",
+              "text": "เกิดข้อผิดพลาด",
               "context": "Generic error message for unknown errors"
             }
           }
@@ -1933,23 +1667,23 @@
         "leaderboard": {
           "columns": {
             "rank": {
-              "text": "Rank",
+              "text": "อันดับ",
               "context": "Column header for rank"
             },
             "score": {
-              "text": "Score",
+              "text": "คะแนน",
               "context": "Column header for score"
             },
             "accuracy": {
-              "text": "Accuracy",
+              "text": "ความแม่นยำ",
               "context": "Column header for accuracy"
             },
             "player": {
-              "text": "Player",
+              "text": "ผู้เล่น",
               "context": "Column header for player"
             },
             "maxCombo": {
-              "text": "Max Combo",
+              "text": "คอมโบสูงสุด",
               "context": "Column header for max combo"
             },
             "perfect": {
@@ -1981,15 +1715,15 @@
               "context": "Column header for small droplets (catch mode, 50)"
             },
             "miss": {
-              "text": "Miss",
+              "text": "พลาด",
               "context": "Column header for misses"
             },
             "pp": {
-              "text": "PP",
+              "text": "pp",
               "context": "Column header for performance points"
             },
             "time": {
-              "text": "Time",
+              "text": "เวลาเล่น",
               "context": "Column header for time played"
             },
             "mods": {
@@ -1999,30 +1733,30 @@
           },
           "actions": {
             "openMenu": {
-              "text": "Open menu",
+              "text": "เปิดเมนู",
               "context": "Screen reader text for the dropdown menu button"
             },
             "viewDetails": {
-              "text": "View Details",
+              "text": "ดูรายละเอียด",
               "context": "Dropdown menu item text to view score details"
             },
             "downloadReplay": {
-              "text": "Download Replay",
+              "text": "ดาวน์โหลด Replay",
               "context": "Dropdown menu item text to download replay"
             }
           },
           "table": {
             "emptyState": {
-              "text": "No scores found. Be the first to submit one!",
+              "text": "ยังไม่มีคะแนน เป็นคนแรกเลยสิ!",
               "context": "Message displayed when there are no scores in the leaderboard"
             },
             "pagination": {
               "scoresPerPage": {
-                "text": "scores per page",
+                "text": "คะแนนต่อหน้า",
                 "context": "Label for the scores per page selector"
               },
               "showing": {
-                "text": "Showing {start} - {end} of {total}",
+                "text": "ตั้งแต่ {start} - {end} จาก {total}",
                 "context": "Pagination text showing the range of displayed scores, includes start, end, and total as parameters"
               }
             }
@@ -2033,113 +1767,113 @@
     "settings": {
       "meta": {
         "title": {
-          "text": "Settingshttps://goatchan.duckdns.org",
+          "text": "การตั้งค่า",
           "context": "The title for the settings page of the osu! website"
         }
       },
       "header": {
-        "text": "Settings",
+        "text": "การตั้งค่า",
         "context": "The main header text for the settings page"
       },
       "notLoggedIn": {
-        "text": "You must be logged in to view this page.",
+        "text": "คุณจะต้องเข้าสู่ระบบก่อนที่จะสามารถเข้าดูได้",
         "context": "Message displayed when user is not logged in"
       },
       "sections": {
         "changeAvatar": {
-          "text": "Change avatar",
+          "text": "เปลี่ยนรูปโปรไฟล์",
           "context": "Title for the change avatar section"
         },
         "changeBanner": {
-          "text": "Change banner",
+          "text": "เปลี่ยนแบนเนอร์",
           "context": "Title for the change banner section"
         },
         "changeDescription": {
-          "text": "Change description",
+          "text": "เปลี่ยนคำอธิบาย",
           "context": "Title for the change description section"
         },
         "socials": {
-          "text": "Socials",
+          "text": "โซเชียลมีเดีย",
           "context": "Title for the socials section"
         },
         "playstyle": {
-          "text": "Playstyle",
+          "text": "สไตล์การเล่น",
           "context": "Title for the playstyle section"
         },
         "options": {
-          "text": "Options",
+          "text": "เพิ่มเติม",
           "context": "Title for the options section"
         },
         "changePassword": {
-          "text": "Change password",
+          "text": "เปลี่ยนรหัสผ่าน",
           "context": "Title for the change password section"
         },
         "changeUsername": {
-          "text": "Change username",
+          "text": "เปลี่ยนชื่อบัญชีผู้เล่น",
           "context": "Title for the change username section"
         },
         "changeCountryFlag": {
-          "text": "Change country flag",
+          "text": "เปลี่ยนประเทศ",
           "context": "Title for the change country flag section"
         }
       },
       "description": {
         "reminder": {
-          "text": "* Reminder: Do not post any inappropriate content. Try to keep it family friendly :)",
+          "text": "* ป.ล. อย่าใช้รูปที่ส่อไปทางที่ไม่ดี :)",
           "context": "Reminder message for description field about keeping content appropriate"
         }
       },
       "components": {
         "username": {
           "label": {
-            "text": "New Username",
+            "text": "ชื่อใหม่",
             "context": "Form label for new username input"
           },
           "placeholder": {
-            "text": "e.g. username",
+            "text": "เช่น username",
             "context": "Placeholder text for username input"
           },
           "button": {
-            "text": "Change username",
+            "text": "เปลี่ยนชื่อ",
             "context": "Button text to change username"
           },
           "validation": {
             "minLength": {
-              "text": "Username must be at least {min} characters.",
+              "text": "ชื่อผู้เล่นต้องมีความยาวอย่างน้อย {min} ตัวอักษร",
               "context": "Validation error message for username minimum length, includes min as parameter"
             },
             "maxLength": {
-              "text": "Username must be {max} characters or fewer.",
+              "text": "ชื่อผู้เล่นต้องมีความยาวไม่เกิน {max} ตัวอักษร",
               "context": "Validation error message for username maximum length, includes max as parameter"
             }
           },
           "toast": {
             "success": {
-              "text": "Username changed successfully!",
+              "text": "เปลี่ยนชื่อบัญชีผู้เล่นสำเร็จแล้ว",
               "context": "Success toast message when username is changed"
             },
             "error": {
-              "text": "Error occured while changing username!",
+              "text": "เกิดปัญหาขึ้นตอนเปลี่ยนชื่อ",
               "context": "Error toast message when username change fails"
             }
           },
           "reminder": {
-            "text": "* Reminder: Please keep your username family friendly, or it will be changed for you. Abusing this feature will result in a ban.",
+            "text": "* ป.ล. ขอให้ชื่อเป็นชื่อที่เรต ท ทุกวัย ไม่งั้นเราจะเปลี่ยนคืนให่้ หากใช้ระบบนี้ในทางที่ไม่ดี คุณอาจถูกระงับบัญชีได้",
             "context": "Reminder message about keeping username appropriate"
           }
         },
         "password": {
           "labels": {
             "current": {
-              "text": "Current Password",
+              "text": "รหัสผ่านปัจจุบัน",
               "context": "Form label for current password input"
             },
             "new": {
-              "text": "New Password",
+              "text": "รหัสผ่านใหม่",
               "context": "Form label for new password input"
             },
             "confirm": {
-              "text": "Confirm Password",
+              "text": "ยืนยันรหัสผ่าน",
               "context": "Form label for confirm password input"
             }
           },
@@ -2148,30 +1882,30 @@
             "context": "Placeholder text for password inputs"
           },
           "button": {
-            "text": "Change password",
+            "text": "เปลี่ยนรหัสผ่าน",
             "context": "Button text to change password"
           },
           "validation": {
             "minLength": {
-              "text": "Password must be at least {min} characters.",
+              "text": "รหัสผ่านต้องมีความยาวอย่างน้อย {min} ตัวอักษร",
               "context": "Validation error message for password minimum length, includes min as parameter"
             },
             "maxLength": {
-              "text": "Password must be {max} characters or fewer.",
+              "text": "รหัสผ่านต้องมีความยาวไม่เกิน {max} ตัวอักษร",
               "context": "Validation error message for password maximum length, includes max as parameter"
             },
             "mismatch": {
-              "text": "Passwords do not match",
+              "text": "รหัสผ่านไม่ตรงกัน",
               "context": "Validation error message when passwords don't match"
             }
           },
           "toast": {
             "success": {
-              "text": "Password changed successfully!",
+              "text": "อัพเดตรหัสผ่านเรียนร้อยแล้ว!",
               "context": "Success toast message when password is changed"
             },
             "error": {
-              "text": "Error occured while changing password!",
+              "text": "เกิดข้อผิดพลาดขึ้นระหว่างการอัพเดต",
               "context": "Error toast message when password change fails"
             }
           }
@@ -2179,35 +1913,35 @@
         "description": {
           "toast": {
             "success": {
-              "text": "Description updated successfully!",
+              "text": "คำอธิบายถูกอัพเดตแล้ว",
               "context": "Success toast message when description is updated"
             },
             "error": {
-              "text": "An unknown error occurred",
+              "text": "เกิดข้อผิดพลาดขึ้น",
               "context": "Generic error message for description update"
             }
           }
         },
         "country": {
           "label": {
-            "text": "New Country Flag",
+            "text": "ประเทศใหม่",
             "context": "Form label for country flag selector"
           },
           "placeholder": {
-            "text": "Select new country flag",
+            "text": "เลือกประเทศ",
             "context": "Placeholder text for country flag selector"
           },
           "button": {
-            "text": "Change country flag",
+            "text": "เปลี่ยนประเทศ",
             "context": "Button text to change country flag"
           },
           "toast": {
             "success": {
-              "text": "Country flag changed successfully!",
+              "text": "ประเทศของคุณถูกอัพเดตเรียบร้อยแล้ว",
               "context": "Success toast message when country flag is changed"
             },
             "error": {
-              "text": "Error occured while changing country flag!",
+              "text": "เกิดข้อผิดพลาดขึ้นระหว่างการอัพเดตประเทศ",
               "context": "Error toast message when country flag change fails"
             }
           }
@@ -2215,39 +1949,39 @@
         "socials": {
           "headings": {
             "general": {
-              "text": "General",
+              "text": "ข้อมูลทั่วไป",
               "context": "Heading for general information section in socials form"
             },
             "socials": {
-              "text": "Socials",
+              "text": "โซเชียลมีเดีย",
               "context": "Heading for socials section in socials form"
             }
           },
           "fields": {
             "location": {
-              "text": "location",
+              "text": "ตำแหน่ง",
               "context": "Field label for location"
             },
             "interest": {
-              "text": "interest",
+              "text": "ความสนใจ",
               "context": "Field label for interest"
             },
             "occupation": {
-              "text": "occupation",
+              "text": "อาชีพ",
               "context": "Field label for occupation"
             }
           },
           "button": {
-            "text": "Update socials",
+            "text": "อัพเดตข้อมูล",
             "context": "Button text to update socials"
           },
           "toast": {
             "success": {
-              "text": "Socials updated successfully!",
+              "text": "ข้อมูลถูกอัพเดตแล้ว",
               "context": "Success toast message when socials are updated"
             },
             "error": {
-              "text": "Error occured while updating socials!",
+              "text": "เกิดข้อผิดพลาดขึ้นระหว่างการอัพเดตข้อมูล",
               "context": "Error toast message when socials update fails"
             }
           }
@@ -2255,29 +1989,29 @@
         "playstyle": {
           "options": {
             "Mouse": {
-              "text": "Mouse",
+              "text": "เมาส์",
               "context": "Playstyle option for mouse input"
             },
             "Keyboard": {
-              "text": "Keyboard",
+              "text": "คีย์บอร์ด",
               "context": "Playstyle option for keyboard input"
             },
             "Tablet": {
-              "text": "Tablet",
+              "text": "เมาส์ปากกา",
               "context": "Playstyle option for tablet input"
             },
             "TouchScreen": {
-              "text": "Touch Screen",
+              "text": "จอสัมผัส",
               "context": "Playstyle option for touch screen input"
             }
           },
           "toast": {
             "success": {
-              "text": "Playstyle updated successfully!",
+              "text": "อัพเดตสไตล์การเล่นแล้ว",
               "context": "Success toast message when playstyle is updated"
             },
             "error": {
-              "text": "Error occured while updating playstyle!",
+              "text": "เกิดข้อผิดพลาดขึ้นระหว่างการอัพเดตสไตล์",
               "context": "Error toast message when playstyle update fails"
             }
           }
@@ -2285,47 +2019,47 @@
         "uploadImage": {
           "types": {
             "avatar": {
-              "text": "avatar",
+              "text": "รูปโปรไฟล์",
               "context": "The word 'avatar' for image upload type"
             },
             "banner": {
-              "text": "banner",
+              "text": "แบนเนอร์",
               "context": "The word 'banner' for image upload type"
             }
           },
           "button": {
-            "text": "Upload {type}",
+            "text": "อัพโหลด {type}",
             "context": "Button text to upload image, includes type (avatar/banner) as parameter"
           },
           "toast": {
             "success": {
-              "text": "{type} updated successfully!",
+              "text": "{type} ถูกอัพเดตเรียบร้อยแล้ว",
               "context": "Success toast message when image is uploaded, includes type (avatar/banner) as parameter"
             },
             "error": {
-              "text": "An unknown error occurred",
+              "text": "เกิดข้อผิดพลาด",
               "context": "Generic error message for image upload"
             }
           },
           "note": {
-            "text": "* Note: {type}s are limited to 5MB in size",
+            "text": "* ป.ล. {type}ต้องมีขนาดไม่เกิน 5MB",
             "context": "Note about file size limit, includes type (avatar/banner) as parameter"
           }
         },
         "siteOptions": {
           "includeBanchoButton": {
-            "text": "Include \"Open on Bancho\" button in beatmap page",
+            "text": "แสดงปุ่ม \"เปิดใน Bancho\" ในหน้าบีทแมพ",
             "context": "Label for toggle to include Open on Bancho button"
           },
           "useSpaciousUI": {
-            "text": "Use spacious UI (Increase spacing between elements)",
+            "text": "เว้นระยะห่างระหว่าง UI",
             "context": "Label for toggle to use spacious UI"
           }
         }
       },
       "common": {
         "unknownError": {
-          "text": "Unknown error.",
+          "text": "เกิดข้อผิดพลาด",
           "context": "Generic error message for unknown errors"
         }
       }
@@ -2333,96 +2067,96 @@
     "user": {
       "meta": {
         "title": {
-          "text": "{username} · User Profilehttps://goatchan.duckdns.org",
+          "text": "{username} · โปรไฟล์ผู้ใช้https://goatchan.duckdns.org",
           "context": "Page title for user profile page, includes username and app name as parameters"
         },
         "description": {
-          "text": "We don't know much about them, but we're sure {username} is great.",
+          "text": "เราไม่มีข้อมูลเกี่ยวกับผู้เล่นนี้",
           "context": "Meta description for user profile page, includes username as parameter"
         }
       },
       "header": {
-        "text": "Player info",
+        "text": "ข้อมูลผู้เล่น",
         "context": "Header text for the user profile page"
       },
       "tabs": {
         "general": {
-          "text": "General",
+          "text": "ทั่วไป",
           "context": "Tab name for general information"
         },
         "bestScores": {
-          "text": "Best scores",
+          "text": "คะแนนที่ดีที่สุด",
           "context": "Tab name for best scores"
         },
         "recentScores": {
-          "text": "Recent scores",
+          "text": "คะแนนล่าสุด",
           "context": "Tab name for recent scores"
         },
         "firstPlaces": {
-          "text": "First places",
+          "text": "อันดับที่ 1",
           "context": "Tab name for first place scores"
         },
         "beatmaps": {
-          "text": "Beatmaps",
+          "text": "บีทแมพ",
           "context": "Tab name for beatmaps"
         },
         "medals": {
-          "text": "Medals",
+          "text": "เหรียญ",
           "context": "Tab name for medals"
         }
       },
       "buttons": {
         "editProfile": {
-          "text": "Edit profile",
+          "text": "แก้ไขโปรไฟล์",
           "context": "Button text to edit user profile"
         },
         "setDefaultGamemode": {
-          "text": "Set <b>{gamemode} {flag}</b> as profile default game mode",
+          "text": "ให้ <b>{gamemode} {flag}</b> เป็นโหมดประจำ",
           "context": "Button text to set default gamemode, includes gamemode name and flag emoji as parameters"
         }
       },
       "errors": {
         "userNotFound": {
-          "text": "User not found or an error occurred.",
+          "text": "ไม่พบผู้เล่นหรือเกิดข้อผิดพลาดขึ้น",
           "context": "Error message when user is not found or an error occurs"
         },
         "restricted": {
-          "text": "This means that the user violated the server rules and has been restricted.",
+          "text": "นี่แปลว่าผู้เล่นคนนี้ได้ฝ่าฝืนกฎและถูกระงับบัญชี",
           "context": "Explanation message when user has been restricted"
         },
         "userDeleted": {
-          "text": "The user may have been deleted or does not exist.",
+          "text": "ผู้เล่นนี้อาจถูกลบหรือไม่มีจริง",
           "context": "Error message when user may have been deleted or doesn't exist"
         }
       },
       "components": {
         "generalTab": {
           "info": {
-            "text": "Info",
+            "text": "ข้อมูล",
             "context": "Section header for user information"
           },
           "rankedScore": {
-            "text": "Ranked Score",
+            "text": "จำนวนคะแนน Ranked",
             "context": "Label for ranked score statistic"
           },
           "hitAccuracy": {
-            "text": "Hit Accuracy",
+            "text": "ความแม่นยำ",
             "context": "Label for hit accuracy statistic"
           },
           "playcount": {
-            "text": "Playcount",
+            "text": "จำนวนครั้งในการเล่น",
             "context": "Label for playcount statistic"
           },
           "totalScore": {
-            "text": "Total Score",
+            "text": "จำนวนคะแนนทั้งหมด",
             "context": "Label for total score statistic"
           },
           "maximumCombo": {
-            "text": "Maximum Combo",
+            "text": "คอมโบสูงสุด",
             "context": "Label for maximum combo statistic"
           },
           "playtime": {
-            "text": "Playtime",
+            "text": "เวลาเล่น",
             "context": "Label for playtime statistic"
           },
           "performance": {
@@ -2430,73 +2164,69 @@
             "context": "Section header for performance information"
           },
           "showByRank": {
-            "text": "Show by rank",
+            "text": "เรียงตาม Rank",
             "context": "Button text to show chart by rank"
           },
           "showByPp": {
-            "text": "Show by pp",
+            "text": "เรียงตาม pp",
             "context": "Button text to show chart by performance points"
           },
           "aboutMe": {
-            "text": "About me",
+            "text": "เกี่ยวกับผู้เล่น",
             "context": "Section header for user description/about section"
-          },
-          "playHistory": {
-            "text": "Play history",
-            "context": "Section header for user play history"
           }
         },
         "scoresTab": {
           "bestScores": {
-            "text": "Best scores",
+            "text": "คะแนนที่ดีที่สุด",
             "context": "Header for best scores section"
           },
           "recentScores": {
-            "text": "Recent scores",
+            "text": "คะแนนล่าสุด",
             "context": "Header for recent scores section"
           },
           "firstPlaces": {
-            "text": "First places",
+            "text": "อันดับที่ 1",
             "context": "Header for first places section"
           },
           "noScores": {
-            "text": "User has no {type} scores",
+            "text": "ผู้เล่นไม่มีคะแนนประเภท {type}",
             "context": "Message when user has no scores of the specified type, includes type as parameter"
           },
           "showMore": {
-            "text": "Show more",
+            "text": "แสดงเพิ่ม",
             "context": "Button text to load more scores"
           }
         },
         "beatmapsTab": {
           "mostPlayed": {
-            "text": "Most played",
+            "text": "เล่นมากที่สุด",
             "context": "Header for most played beatmaps section"
           },
           "noMostPlayed": {
-            "text": "User has no most played beatmaps",
+            "text": "ผู้เล่นยังไม่มีการเล่น",
             "context": "Message when user has no most played beatmaps"
           },
           "favouriteBeatmaps": {
-            "text": "Favourite Beatmaps",
+            "text": "บีทแมพถูกใจ",
             "context": "Header for favourite beatmaps section"
           },
           "noFavourites": {
-            "text": "User has no favourite beatmaps",
+            "text": "ผู้เล่นยังไม่มีบีทแมพที่ถูกใจ",
             "context": "Message when user has no favourite beatmaps"
           },
           "showMore": {
-            "text": "Show more",
+            "text": "แสดงเพิ่ม",
             "context": "Button text to load more beatmaps"
           }
         },
         "medalsTab": {
           "medals": {
-            "text": "Medals",
+            "text": "เหรียญ",
             "context": "Header for medals section"
           },
           "latest": {
-            "text": "Latest",
+            "text": "ล่าสุด",
             "context": "Header for latest medals section"
           },
           "categories": {
@@ -2518,57 +2248,57 @@
             }
           },
           "achievedOn": {
-            "text": "achieved on",
+            "text": "ได้รับในวันที่",
             "context": "Text shown before the date when a medal was achieved"
           },
           "notAchieved": {
-            "text": "Not achieved",
+            "text": "ยังไม่ได้รับ",
             "context": "Text shown when a medal has not been achieved"
           }
         },
         "generalInformation": {
           "joined": {
-            "text": "Joined <b>{time}</b>",
+            "text": "สมัครตอนวันที่ <b>{time}</b>",
             "context": "Text showing when user joined, includes time as parameter"
           },
           "followers": {
-            "text": "<b>{count}</b> Followers",
+            "text": "ผู้ติดตาม <b>{count}</b> คน",
             "context": "Text showing followers count, includes count as parameter"
           },
           "following": {
-            "text": "<b>{count}</b> Following",
+            "text": "ติดตามอยู่ <b>{count}</b> คน",
             "context": "Text showing following count, includes count as parameter"
           },
           "playsWith": {
-            "text": "Plays with <b>{playstyle}</b>",
+            "text": "ใช้ <b>{playstyle}</b> เล่น",
             "context": "Text showing playstyle, includes playstyle as parameter with formatting"
           }
         },
         "statusText": {
           "lastSeenOn": {
-            "text": ", last seen on {date}",
+            "text": ", ออนไลน์ครั้งสุดท้ายเมื่อ {date}",
             "context": "Text shown before the last seen date when user is offline, includes date as parameter"
           }
         },
         "ranks": {
           "highestRank": {
-            "text": "Highest rank <rankValue>{rank}</rankValue> on {date}",
+            "text": "ได้ Rank สูงสุดคือ <rankValue>{rank}</rankValue> ในวันที่ {date}",
             "context": "Tooltip text for highest rank achieved, includes rank number and date as parameters, rank is formatted"
           }
         },
         "previousUsernames": {
           "previouslyKnownAs": {
-            "text": "This user was previously known as:",
+            "text": "ผู้เล่นเคยมีชื่อว่า:",
             "context": "Tooltip text explaining that the user had previous usernames"
           }
         },
         "beatmapSetOverview": {
           "by": {
-            "text": "by {artist}",
+            "text": "โดย {artist}",
             "context": "Text showing beatmap artist, includes artist name as parameter"
           },
           "mappedBy": {
-            "text": "mapped by {creator}",
+            "text": "แมพโดย {creator}",
             "context": "Text showing beatmap creator/mapper, includes creator name as parameter"
           }
         },
@@ -2602,13 +2332,13 @@
             "context": "Abbreviation for performance points"
           },
           "accuracy": {
-            "text": "acc: {accuracy}%",
+            "text": "ความแม่นยำ: {accuracy}%",
             "context": "Text showing score accuracy, includes accuracy percentage as parameter"
           }
         },
         "statsChart": {
           "date": {
-            "text": "Date",
+            "text": "วันที่",
             "context": "Label for the date axis on the stats chart"
           },
           "types": {
@@ -2617,12 +2347,8 @@
               "context": "Abbreviation for performance points in chart tooltip"
             },
             "rank": {
-              "text": "rank",
+              "text": "Rank",
               "context": "Word for rank in chart tooltip"
-            },
-            "plays": {
-              "text": "plays",
-              "context": "Word for plays in chart tooltip"
             }
           },
           "tooltip": {
