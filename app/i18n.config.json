@@ -1,22 +1,22 @@
 {
   "general": {
     "appName": {
-      "text": "osu!sunrise",
-      "context": "The name of the application, will be inclided in various places such as the title meta tag"
+      "text": "GOATchan",
+      "context": "A silly osu! private server for GOAT"
     },
     "serverTitle": {
       "full": {
-        "text": "sunrise",
-        "context": "The full name of the server"
+        "text": "GOATchan",
+        "context": "A silly osu! private server for GOAT"
       },
       "split": {
         "part1": {
-          "text": "sun",
-          "context": "The first part of the split server name"
+          "text": "GOAT",
+          "context": "Goofy Osu Adict Team"
         },
         "part2": {
-          "text": "rise",
-          "context": "The second part of the split server name"
+          "text": "chan",
+          "context": "-ran out of ideas :3"
         }
       }
     }
@@ -24,8 +24,8 @@
   "components": {
     "footer": {
       "copyright": {
-        "text": "© 2024-2026 Sunrise Community",
-        "context": "Copyright text in footer"
+        "text": "Server powered by Sunrise. Hosted by fishiatee @ GOAT",
+        "context": "Proudly hosted on re-purposed Android e-waste!"
       }
     }
   }
