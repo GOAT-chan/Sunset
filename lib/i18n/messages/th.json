@@ -356,7 +356,7 @@
         "context": "Link text for server status page"
       },
       "disclaimer": {
-        "text": "เราไม่มีความเกี่ยวข้องกับ \"ppy\" และ \"osu!\" แต่อย่างใด / ลิขสิทธิ์ทั้งหมดเป็นของผู้เป็นเจ้าของโดยชอบธรรม\nภาษาไทยแปลโดย lyronseir (lyrongoon)",
+        "text": "เราไม่มีความเกี่ยวข้องกับ \"ppy\" และ \"osu!\" แต่อย่างใด / ลิขสิทธิ์ทั้งหมดเป็นของผู้เป็นเจ้าของโดยชอบธรรม\\nภาษาไทยแปลโดย lyronseir (lyrongoon) | แปลเวอร์ชั่น 1.1",
         "context": "Disclaimer text about not being affiliated with ppy/osu!"
       }
     },
@@ -451,7 +451,7 @@
       },
       "features": {
         "motto": {
-          "text": "เซิร์ฟเวอร์ osu! <b>นรก</b>สำหรับ Goofy Osu Addict Team",
+          "text": "เซิร์ฟเวอร์ osu! <b>นรก</b> สำหรับ Goofy Osu Addict Team",
           "context": "The tagline or motto displayed on the main page"
         },
         "description": {
@@ -486,7 +486,7 @@
         },
         "ppSystem": {
           "title": {
-            "text": "Reliable™",
+            "text": "เชื่อถือได้™",
             "context": "Title of the PP system card on the main page"
           },
           "description": {
@@ -541,7 +541,7 @@
           "context": "Section heading for the getting started guide"
         },
         "description": {
-          "text": "'ง่ายมาก! ง่ายกว่า... จะพูดว่าอะไรวะ?'",
+          "text": "ง่ายมาก! ง่ายกว่า... จะพูดว่าอะไรวะ?'",
           "context": "Description text introducing the getting started steps"
         },
         "downloadTile": {
@@ -640,7 +640,7 @@
             "context": "Title of the wiki article explaining how to connect to the server"
           },
           "intro": {
-            "text": "การเชื่อมต่อกับเซิร์ฟเวอร์นี้ เป็นการเปิด osu! ในเงื่อนไขพิเศษ. ขั้นตอนต่อไปนี้เป็นสำหรับ Windows. หากคุณใช้ระบบปฏิบัติการอื่นๆ เราคาดหวังว่าคุณจะสามารถประยุกต์เข้ากับระบบของคุณได้ค่ะ ",
+            "text": "การเชื่อมต่อกับเซิร์ฟเวอร์นี้ เป็นการเปิด osu! ในเงื่อนไขพิเศษ. ขั้นตอนต่อไปนี้เป็นสำหรับ Windows. หากคุณใช้ระบบปฏิบัติการอื่นๆ เราคาดหวังว่าคุณจะสามารถประยุกต์เข้ากับระบบของคุณได้ด้วยตัวเอง ",
             "context": "Introduction text explaining the prerequisites for connecting to the server"
           },
           "step1": {
@@ -819,7 +819,7 @@
           },
           "noAdvertising": {
             "title": {
-              "text": "<b>อย่าไปรโมทตัวเอง</b>",
+              "text": "<b>อย่าโปรโมทตัวเอง</b>",
               "context": "Title of the no advertising rule, displayed in bold"
             },
             "description": {
@@ -2164,19 +2164,19 @@
             "context": "Section header for performance information"
           },
           "showByRank": {
-            "text": "เรียงตาม Rank",
+            "text": "แสดง Rank",
             "context": "Button text to show chart by rank"
           },
           "showByPp": {
-            "text": "เรียงตาม pp",
+            "text": "แสดง pp",
             "context": "Button text to show chart by performance points"
           },
           "aboutMe": {
             "text": "เกี่ยวกับผู้เล่น",
             "context": "Section header for user description/about section"
-          },
+          }
           "playHistory": {
-            "text": "Play history",
+            "text": "ประวัติการเล่น",
             "context": "Section header for user play history"
           }
         },
@@ -2194,7 +2194,7 @@
             "context": "Header for first places section"
           },
           "noScores": {
-            "text": "ผู้เล่นไม่มีคะแนนประเภท {type}",
+            "text": "ผู้เล่นไม่มีคะแนน {type}",
             "context": "Message when user has no scores of the specified type, includes type as parameter"
           },
           "showMore": {
@@ -2262,7 +2262,7 @@
         },
         "generalInformation": {
           "joined": {
-            "text": "สมัครตอนวันที่ <b>{time}</b>",
+            "text": "สมัครเมื่อ <b>{time}</b>",
             "context": "Text showing when user joined, includes time as parameter"
           },
           "followers": {
@@ -2313,7 +2313,7 @@
               "context": "Name of the Developer badge"
             },
             "Admin": {
-              "text": "Admin",
+              "text": "แอดมิน",
               "context": "Name of the Admin badge"
             },
             "Bat": {
@@ -2321,7 +2321,7 @@
               "context": "Name of the BAT (Beatmap Appreciation Team) badge"
             },
             "Bot": {
-              "text": "Bot",
+              "text": "บอท",
               "context": "Name of the Bot badge"
             },
             "Supporter": {
@@ -2353,10 +2353,6 @@
             "rank": {
               "text": "Rank",
               "context": "Word for rank in chart tooltip"
-            },
-            "plays": {
-              "text": "plays",
-              "context": "Word for plays in chart tooltip"
             }
           },
           "tooltip": {
