@@ -25,7 +25,7 @@ export async function generateMetadata(props: {
     title: t("title", { username: user.username }),
     description: t("description", { username: user.username }),
     openGraph: {
-      siteName: "osu!sunrise",
+      siteName: "GOAT-chan",
       title: t("title", { username: user.username }),
       description: t("description", { username: user.username }),
       images: [

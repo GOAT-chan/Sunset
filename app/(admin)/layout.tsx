@@ -4,9 +4,9 @@ import { AppSidebar } from "@/app/(admin)/components/AppSidebar";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 
 export const metadata: Metadata = {
-  title: "Admin Panel | osu!sunrise",
+  title: "Admin Panel | GOAT-chan",
   openGraph: {
-    title: "Admin Panel | osu!sunrise",
+    title: "Admin Panel | GOAT-chan",
   },
 };
 

@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import Page from "./page";
 
 export const metadata: Metadata = {
-  title: "Beatmaps Ranking | osu!sunrise",
+  title: "Beatmaps Ranking | GOAT-chan",
   openGraph: {
-    title: "Beatmaps Ranking | osu!sunrise",
+    title: "Beatmaps Ranking | GOAT-chan",
   },
 };
 

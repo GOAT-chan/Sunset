@@ -32,11 +32,11 @@ export async function generateMetadata(
   }
 
   return {
-    title: `${beatmapSet.artist} - ${beatmapSet.title} | osu!sunrise`,
+    title: `${beatmapSet.artist} - ${beatmapSet.title} | GOAT-chan`,
     description: `Beatmapset info for ${beatmapSet.title} by ${beatmapSet.artist}`,
     openGraph: {
-      siteName: "osu!sunrise",
-      title: `${beatmapSet.artist} - ${beatmapSet.title} | osu!sunrise`,
+      siteName: "GOAT-chan",
+      title: `${beatmapSet.artist} - ${beatmapSet.title} | GOAT-chan`,
       description: `Beatmapset info for ${beatmapSet.title} by ${
         beatmapSet.artist
       } ${

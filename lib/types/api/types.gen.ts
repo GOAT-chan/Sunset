@@ -3137,5 +3137,5 @@ export type GetWsResponses = {
 export type GetWsResponse = GetWsResponses[keyof GetWsResponses];
 
 export type ClientOptions = {
-  baseUrl: "https://api.sunrise.local" | (string & {});
+  baseUrl: "https://api.goatchan.duckdns.org" | (string & {});
 };
