@@ -2174,7 +2174,7 @@
           "aboutMe": {
             "text": "เกี่ยวกับผู้เล่น",
             "context": "Section header for user description/about section"
-          }
+          },
           "playHistory": {
             "text": "ประวัติการเล่น",
             "context": "Section header for user play history"
