@@ -1418,7 +1418,7 @@
         },
         "openGraph": {
           "title": {
-            "text": "{artist} - {title}https://goatchan.duckdns.org",
+            "text": "{artist} - {title}",
             "context": "The OpenGraph title for the beatmapset detail page, includes artist and title as parameters"
           },
           "description": {
