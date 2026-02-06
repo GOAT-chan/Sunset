@@ -8,6 +8,8 @@ ENV NODE_ENV=production
 
 COPY package.json ./
 
+RUN bun update
+
 RUN bun install 
 
 COPY . .
