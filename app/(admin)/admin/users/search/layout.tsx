@@ -4,9 +4,9 @@ import { Suspense } from "react";
 import AdminUsersSearchPage from "./page";
 
 export const metadata: Metadata = {
-  title: "Users Search | osu!sunrise",
+  title: "Users Search | GOAT-chan",
   openGraph: {
-    title: "Users Search | osu!sunrise",
+    title: "Users Search | GOAT-chan",
   },
 };
 

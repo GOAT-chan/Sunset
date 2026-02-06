@@ -48,7 +48,7 @@ export async function generateMetadata(
       artist: beatmapSet.artist,
     }),
     openGraph: {
-      siteName: "osu!sunrise",
+      siteName: "GOAT-chan",
       title: t("openGraph.title", {
         artist: beatmapSet.artist,
         title: beatmapSet.title,
