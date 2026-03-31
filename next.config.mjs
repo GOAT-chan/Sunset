@@ -80,7 +80,6 @@ const nextConfig = {
         pathname: "**",
       },
     ],
-    unoptimized: true,
   },
   reactStrictMode: false,
 };
