@@ -39,6 +39,16 @@ export default function UserSocials({ metadata }: UserSocialsProps) {
     </Link>
   );
 
+  const normalizeUrl = (url?: string) => {
+    if (!url)
+      return "#";
+
+    if (url.startsWith("http://") || url.startsWith("https://"))
+      return url;
+
+    return `https://${url}`;
+  };
+
   const htmlTag = (v: keyof UserMetadataResponse, content: string) => {
     switch (v) {
       case "playstyle":
@@ -59,7 +69,7 @@ export default function UserSocials({ metadata }: UserSocialsProps) {
           </CopyElement>
         );
       case "website":
-        return linkElement(content, content);
+        return linkElement(content, normalizeUrl(content));
       default:
         return (
           <span className="font-bold text-muted-foreground">{content}</span>
