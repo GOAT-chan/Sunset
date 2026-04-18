@@ -40,12 +40,14 @@ export default function UserSocials({ metadata }: UserSocialsProps) {
   );
 
   const normalizeUrl = (url?: string) => {
-    if (!url) return "#"
-    if (url.startsWith("http://") || url.startsWith("https://")) {
-      return url
-    }
-    return `https://${url}`
-  }
+    if (!url)
+      return "#";
+
+    if (url.startsWith("http://") || url.startsWith("https://"))
+      return url;
+
+    return `https://${url}`;
+  };
 
   const htmlTag = (v: keyof UserMetadataResponse, content: string) => {
     switch (v) {
